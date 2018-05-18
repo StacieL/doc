@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Create your first app from scratch · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Create your first app from scratch · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/index.html"/><meta property="og:description" content="&lt;div class = &quot;objectives&quot;&gt;"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://your-docusaurus-test-site.com/blog/atom.xml" title="4D for iOS Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://your-docusaurus-test-site.com/blog/feed.xml" title="4D for iOS Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible doc separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/docindex.html" target="_self">Docs</a></li><li class=""><a href="/docs/docindex.html" target="_self">API</a></li><li class=""><a href="/en/help.html" target="_self">Help</a></li><li class=""><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Create your iOS App from scratch</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Create your iOS App from scratch</h3><ul><li class="navListItem"><a class="navItem" href="/docs/veryFirstApp.html">My very first App</a></li><li class="navListItem"><a class="navItem" href="/docs/MyAccountantApp.html">My Accountant App</a></li><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/docs/MyinventoryApp.html">My inventory App</a></li><li class="navListItem"><a class="navItem" href="/docs/MyMedicalApp.html">My Medical App</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>Create your first app from scratch</h1></header><article><div><span><div class = "objectives">
+<b>OBJECTIVES</b>
+<ul>
+<li>Create your very first app with 4D for iOS</li>
+</ul>
+</div>
+<div class = "prerequisites">
+<b>PREREQUISITES</b>
+<ul>
+<li>4D mobile service must be activated to expose your data</li>
+<li>A well configured HTTP Port and HTTPS Port</li>
+<li>If your are looking for more comfort, the Launch Web Server at Startup option can also be activated</li>
+<li>Last Xcode version installed in your Mac</li>
+</ul>
+</div>
+<p>This tutorial will make you dive right into 4D for iOS development. It will allow you to create your very first application very quickly.</p>
+<p>Imagine that you are a commercial business manager, and you want to consult your contact details on the go.</p>
+<p>To fill that need, we are going to create an iPhone application called Contact. You will be able to search for contact names from a listview and then visualize the detail of each contact clicking into the detailview.</p>
+<h2><a class="anchor" aria-hidden="true" id="step-1-getting-started"></a><a href="#step-1-getting-started" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 1. GETTING STARTED</h2>
+<p>Start by downloading the starter project, which contains the database file and the project icon, but no mobile project yet!</p>
+<p>Starter project.zip</p>
+<h2><a class="anchor" aria-hidden="true" id="step-2-creating-the-project"></a><a href="#step-2-creating-the-project" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 2. CREATING THE PROJECT</h2>
+<p>Let start with a very simple structure with just one Contact table. From 4D, go to New &gt; Mobile project.</p>
+<p>Give a name to your project and click Create.</p>
+<p><img src="/docs/assets/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-3-opening-project-editor"></a><a href="#step-3-opening-project-editor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 3. OPENING PROJECT EDITOR</h2>
+<p>Welcome to 4D for iOS! The welcome screen shows you what you will be able to do with this magnificent tool 🙂</p>
+<p><img src="/docs/assets/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
+<p>Click Continue.</p>
+<h2><a class="anchor" aria-hidden="true" id="step-4-configure-your-application-s-main-informations"></a><a href="#step-4-configure-your-application-s-main-informations" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATIONS</h2>
+<ul>
+<li>Fill your Organisation name and the Identifier of your app for example “My Company” and com.MyCompany</li>
+<li>Then choose your app Name. Let’s call it Contact.</li>
+<li>By default, the Bundle ID is automatically generated as a composition of your organization identifier and product name</li>
+<li>Leave the Version to 1.0 and define the Copyright of your app. It is highly recommended to keep the formats provided by 4D for iOS.</li>
+<li>Drag and drop and icon into the Icon area</li>
+<li>To fill the Developer part, go to your developer account and copy paste your developer Team reference into the Team Field</li>
+</ul>
+<p><img src="/docs/assets/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-5-select-your-data-in-structure-section"></a><a href="#step-5-select-your-data-in-structure-section" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 5. SELECT YOUR DATA IN STRUCTURE SECTION</h2>
+<p>In this section you define a database subset that you want to expose to mobile</p>
+<p>For example you can choose First Name, Last Name, Job, Company, Phone, Notes and Photo.</p>
+<p><img src="/docs/assets/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-6-icons-and-labels"></a><a href="#step-6-icons-and-labels" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 6. ICONS AND LABELS</h2>
+<ul>
+<li><p>In Tables Properties, define a short and a long label for your Contact table</p></li>
+<li><p>Click on the icon field to make the icon library appear and select an icon that illustrate well the Contact Table
+You can also decide to leave the icon field empty. 4D for iOS will generate a default icon for you !</p></li>
+<li><p>Let’s move to the Fields Properties. Select a short and a long label for all the fields that you previously select in the Structure Section</p></li>
+<li><p>As for Tables icon definition, select icons for each field</p></li>
+</ul>
+<p>For fields icons definition there are several senaris:</p>
+<ul>
+<li>Of course you can select an icon for each field</li>
+<li>If at least one icon has been defined and some fields are leaved empty, 4D for iOS will generate default icons for you in the generated app</li>
+<li>Leave empty all icon fields if you don’t want to display any icon on your app</li>
+</ul>
+<p><img src="/docs/assets/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-7-main-menu-definition"></a><a href="#step-7-main-menu-definition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 7. MAIN MENU DEFINITION</h2>
+<ul>
+<li>In Available Tables list you can visualize all the table that have been previously published in the Structure section.</li>
+<li>In Selected Tables you can find all your app menu items. For now there is only one item but in a future tutorial with more than one table you can reorder your items with drag and drop.</li>
+</ul>
+<p><img src="/docs/assets/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-8-forms-definition"></a><a href="#step-8-forms-definition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 8. FORMS DEFINITION</h2>
+<ul>
+<li>Select a form template to use as list for your table. Let’s choose the Profil List Form.</li>
+</ul>
+<ul>
+<li>At this point, the bottom part has changed from Template selection to Content definition</li>
+</ul>
+<ul>
+<li>Simply drag and drop the fields that you want to be displayed in your Contact app : Last name into the search field and in the Title field</li>
+<li>Search field and section field are optional. Leave section field empty for the moment.</li>
+</ul>
+<ul>
+<li>Let’s move to the Detail form definition. As for List Form, select a template that is  the most suitable for our contact app. Let’s select the Visual Contact template.</li>
+<li>Drag and drop the content to be displayed in the detail view of your Contact app : First Name, Last Name, Job, Company, Phone and Notes</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="step-9-build-time"></a><a href="#step-9-build-time" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 9. BUILD TIME</h2>
+<p>Now let’s go to the fun part ! Test your app on the simulator to see the final result !</p>
+<ul>
+<li>Click to the Build tab</li>
+<li>Select the device that suits you the best clicking on the device button</li>
+<li>Now click on the Build and Run Button</li>
+<li>Wait a few seconds and…. Your iOS app is alive !</li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="MyAccountantApp.html">← Create your first app from scratch</a><a class="docs-next button" href="MyMedicalApp.html">Create your first app from scratch →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-getting-started">STEP 1. GETTING STARTED</a></li><li><a href="#step-2-creating-the-project">STEP 2. CREATING THE PROJECT</a></li><li><a href="#step-3-opening-project-editor">STEP 3. OPENING PROJECT EDITOR</a></li><li><a href="#step-4-configure-your-application-s-main-informations">STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATIONS</a></li><li><a href="#step-5-select-your-data-in-structure-section">STEP 5. SELECT YOUR DATA IN STRUCTURE SECTION</a></li><li><a href="#step-6-icons-and-labels">STEP 6. ICONS AND LABELS</a></li><li><a href="#step-7-main-menu-definition">STEP 7. MAIN MENU DEFINITION</a></li><li><a href="#step-8-forms-definition">STEP 8. FORMS DEFINITION</a></li><li><a href="#step-9-build-time">STEP 9. BUILD TIME</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"></a><div><h5>Docs</h5><a href="/docs/en/projectEditorOverview.html">4D for iOS Overview</a><a href="/docs/en/veryFirstApp.html">Create Your first iOS App</a><a href="/docs/en/RuninSimulator.html">Test your App</a><a href="/docs/en/RegisterAppleDeveloperEnterpriseProgram.html">Deploy in-House</a><a href="/docs/en/RegisterOrganization.html">Deploy on App Store</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 4D SAS</section></footer></div></body></html>
