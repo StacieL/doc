@@ -1,0 +1,23 @@
+{
+  "discoverProjectEditor": {
+    "Discover the Project Editor": ["projectEditorOverview"],
+    "Section TAB": ["generalSection","structureSection","labelsIconsSection","mainMenuSection","formsSection"],
+    "Build TAB": ["testApp"]
+  },
+  "CreateiOSApp": {
+  	"Create your iOS App from scratch" : ["veryFirstApp","MyAccountantApp","MyinventoryApp","MyMedicalApp"]
+
+  },
+  "TestiOSApp": {
+    "Test your iOS app" : ["RuninSimulator","InstallonDevice"]
+  },
+
+
+  "DeployinHouse": {
+  	"Deploy In-House" : ["RegisterAppleDeveloperEnterpriseProgram"]
+  },
+
+   "DeployAppStore": {
+    "Deploy On AppStore" : ["RegisterOrganization","RegisterIndividual"]
+  }
+}
