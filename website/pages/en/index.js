@@ -86,8 +86,6 @@ class HomeSplash extends React.Component {
             <Button href={docUrl('RegisterAppleDeveloperEnterpriseProgram.html', language)}>Deploy In House</Button>
             <Button href={docUrl('RegisterOrganization.html', language)}>Deploy App Store</Button>
 
-
-
           </PromoSection>
         </div>
       </SplashContainer>

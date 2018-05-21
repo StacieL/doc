@@ -7,7 +7,7 @@ sidebar_label: Structure Section
 This section displays all your database tables and fields that are exposed with 4D Mobile.
 
 
-![alt-text](/docs/assets/4DforiOSOverview/Structure-section-4D-for-iOS.png)
+![alt-text](assets/4DforiOSOverview/Structure-section-4D-for-iOS.png)
 
 
 Here you define a subset of your physical structure to replicate for mobile devices selecting tables and fields.

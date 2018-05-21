@@ -16,7 +16,7 @@ Install: installs the application on a connected device
 
 Select the simulator device you want to build your app on, and press Build and Run button!
 
-![alt-text](/docs/assets/4DforiOSOverview/Build-Tab-4D-for-iOS.png)
+![alt-text](assets/4DforiOSOverview/Build-Tab-4D-for-iOS.png)
 
 You can now start playing with 4D for iOS and build your own iOS project following those easy steps.
 

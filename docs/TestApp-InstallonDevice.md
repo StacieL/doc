@@ -36,13 +36,13 @@ Let us start from the beginning
 ## STEP 2. XCODE CONFIGURATION – ONLY THE FIRST TIME
 
 * GO to Xcode > Preferences > Accounts and add your developer account
-![alt-text](/docs/assets/TestYourApp/Developer-Account-4D-for-iOS.png) 
+![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png) 
 
 * Team ID : Go to your developer account > Membership and get your Team ID
-![alt-text](/docs/assets/TestYourApp/Team-ID-4D-for-iOS.png) 
+![alt-text](assets/TestYourApp/Team-ID-4D-for-iOS.png) 
 
 * 4D for iOS : launch 4D for iOS under the General Section and fill your Team ID
-![alt-text](/docs/assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png) 
+![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png) 
 
 ## STEP 3. XCODE CONFIGURATION – ONLY THE FIRST TIME
 
@@ -50,6 +50,6 @@ Let us start from the beginning
 * Connect your device to your computer using a USB cable
 * From the BUILD tab click on Install Button
 
-![alt-text](/docs/assets/TestYourApp/Install-button-build-tab-4D-for-iOS.png) 
+![alt-text](assets/TestYourApp/Install-button-build-tab-4D-for-iOS.png) 
 
 * Wait for the app to be installed on your device

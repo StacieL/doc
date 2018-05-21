@@ -3,13 +3,13 @@ id: docindex
 title: Docs
 ---
 
-[4D for iOS Overview](/docs/projectEditorOverview.html)
+[4D for iOS Overview](projectEditorOverview.html)
 
-[Create iOS Apps From scratch](/docs/veryFirstApp.html)
+[Create iOS Apps From scratch](veryFirstApp.html)
 
-[Test your App](/docs/RuninSimulator.html)
+[Test your App](RuninSimulator.html)
 
-[Deploy In House](/docs/RegisterAppleDeveloperEnterpriseProgram.html)
+[Deploy In House](RegisterAppleDeveloperEnterpriseProgram.html)
 
-[Deploy App Store](/docs/RegisterOrganization.html)
+[Deploy App Store](RegisterOrganization.html)
 

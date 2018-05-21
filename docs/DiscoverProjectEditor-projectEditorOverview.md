@@ -25,8 +25,7 @@ Today we are going to take a look on how 4D for iOS works. Start your 4D applica
 
 The welcome screens automatically appears to help you understand basic concepts of 4D for iOS. You can check the “Do not show again” option and this dialog will no longer be displayed. Click Continue.
 
-
-![alt-text](/docs/assets/4DforiOSOverview/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/4DforiOSOverview/Welcome-Screen-4D-for-iOS.png)
 
 Here we are ! Let’s discover 4D for iOS architecture and interface !
 

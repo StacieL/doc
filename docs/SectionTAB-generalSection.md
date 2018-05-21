@@ -4,7 +4,7 @@ title: Let's have a closer look to the General Section
 sidebar_label: General Section
 ---
 
-![alt-text](/docs/assets/4DforiOSOverview/General-section-4D-for-iOS.png)
+![alt-text](assets/4DforiOSOverview/General-section-4D-for-iOS.png)
 
 * Organization’s Name: your company’s name or your personal name.
 * Organization identifier: your organization’s bundle identifier. will be used to identify your app. The product name you enter are concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID needs to be unique to your app.

@@ -8,4 +8,4 @@ sidebar_label: Main Menu Section
 Selected Tables list at the right side includes all tables that will be accessible from the menu of you App.
 * As default, all selected tables in the Structure section will be added to your app’s menu. You can then add, delete and reordered displayed items to suit your requirements with drag and drop.
 
-![alt-text](/docs/assets/4DforiOSOverview/Main-menu-section-4D-for-iOS.png)
+![alt-text](assets/4DforiOSOverview/Main-menu-section-4D-for-iOS.png)

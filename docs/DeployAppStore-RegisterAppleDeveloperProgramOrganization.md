@@ -23,13 +23,13 @@ Note that to enroll in the Apple Developer Enterprise Program, your Apple ID mus
 
 Go the the [Apple ID creation page](https://appleid.apple.com/)
 
-![alt-text](/docs/assets/DeployAppStore/Apple-ID-Creation-Page-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Enter your informations as well as security questions and click
 * You will receive a verification code by email
 * Enter your verification code to validate your account creation
 
-![alt-text](/docs/assets/DeployAppStore/Register-developer-program-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Register-developer-program-4D-for-iOS.png)
 
 * When your Apple ID is ready your can continue to Step 3
 
@@ -42,37 +42,37 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 Get your D-U-N-S Number from [here](https://developer.apple.com/enroll/duns-lookup/#/search)
 
-![alt-text](/docs/assets/DeployAppStore/DUNS-Number-Organization-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/DUNS-Number-Organization-4D-for-iOS.png)
 
 * Fill the form
 * Click continue and check your emails for the D-U-N-S Number
 
-![alt-text](/docs/assets/DeployAppStore/DUNS-Number-Apple-Mail_4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
 
 ## STEP 5. REGISTER AS A DEVELOPER
 
 * From [here](https://developer.apple.com/account/), read the agreement and click Submit
 
-![alt-text](/docs/assets/DeployAppStore/Register-developer-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Register-developer-4D-for-iOS.png)
 
 ## STEP 6. JOIN THE APPLE DEVELOPER PROGRAM
 
 * Click on Join the Apple Developer Program at the bottom of the page
 
-![alt-text](/docs/assets/DeployAppStore/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## STEP 7. ENROLL AS AN ORGANIZATION
 
 * Click Start your Enrollment
 * Select Individuals / Sole Proprietor / Single Person Business
 
-![alt-text](/docs/assets/DeployAppStore/Apple-Developer-Program-Organizations-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Apple-Developer-Program-Organizations-4D-for-iOS.png)
 
 * Fill in the form
 * Click Continue and check your email for an enrollment confirmation
 
-![alt-text](/docs/assets/DeployAppStore/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Apple-Developer-Program-Enrollment-Organizations-4D-for-iOS.png)
 
 There is an Apple internal verification process that usually takes up to 3 working days for Organizations. You will then receive another email to invite you to complete the enrollment process.
 
@@ -80,7 +80,7 @@ There is an Apple internal verification process that usually takes up to 3 worki
 
 * Click Purchase and make the payment to complete the enrollment
 
-![alt-text](/docs/assets/DeployAppStore/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
+![alt-text](assets/DeployAppStore/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * Once you complete your purchase, you will receive a membership confirmation email
  

@@ -39,14 +39,14 @@ Let start with a very simple structure with just one Contact table. From 4D, go 
 
 Give a name to your project and click Create.
 
-![alt-text](/docs/assets/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/Welcome-Screen-4D-for-iOS.png)
 
 
 ## STEP 3. OPENING PROJECT EDITOR
 
 Welcome to 4D for iOS! The welcome screen shows you what you will be able to do with this magnificent tool 🙂
 
-![alt-text](/docs/assets/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/Welcome-Screen-4D-for-iOS.png)
 
 Click Continue.
 
@@ -60,7 +60,7 @@ Click Continue.
 * Drag and drop and icon into the Icon area
 * To fill the Developer part, go to your developer account and copy paste your developer Team reference into the Team Field
 
-![alt-text](/docs/assets/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/Welcome-Screen-4D-for-iOS.png)
 
 
 ## STEP 5. SELECT YOUR DATA IN STRUCTURE SECTION
@@ -69,7 +69,7 @@ In this section you define a database subset that you want to expose to mobile
 
 For example you can choose First Name, Last Name, Job, Company, Phone, Notes and Photo.
 
-![alt-text](/docs/assets/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/Welcome-Screen-4D-for-iOS.png)
 
 ## STEP 6. ICONS AND LABELS
 
@@ -87,14 +87,14 @@ For fields icons definition there are several senaris:
 * If at least one icon has been defined and some fields are leaved empty, 4D for iOS will generate default icons for you in the generated app
 * Leave empty all icon fields if you don’t want to display any icon on your app
 
-![alt-text](/docs/assets/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/Welcome-Screen-4D-for-iOS.png)
 
 ## STEP 7. MAIN MENU DEFINITION
 
 * In Available Tables list you can visualize all the table that have been previously published in the Structure section.
 * In Selected Tables you can find all your app menu items. For now there is only one item but in a future tutorial with more than one table you can reorder your items with drag and drop.
 
-![alt-text](/docs/assets/Welcome-Screen-4D-for-iOS.png)
+![alt-text](assets/Welcome-Screen-4D-for-iOS.png)
 
 ## STEP 8. FORMS DEFINITION
 
