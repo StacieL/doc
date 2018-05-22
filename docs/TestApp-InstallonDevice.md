@@ -53,3 +53,10 @@ Let us start from the beginning
 ![alt-text](assets/TestYourApp/Install-button-build-tab-4D-for-iOS.png) 
 
 * Wait for the app to be installed on your device
+
+
+<div style="text-align: center">
+<a class="button"
+href="../AppInstallOnDevice.html">FIND ALL STEPS RIGHT HERE</a>
+</div>
+

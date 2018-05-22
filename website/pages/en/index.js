@@ -163,7 +163,7 @@ const BuildYourApp = props => (
       {
         image: imgUrl('Create-iOS-app-from-scratch.png'),
         imageAlign: 'left',
-        content: 'Create various apps depending on your business needs.<br> Discover various tutorials to build your first app in a few minutes',
+        content: 'Create various apps depending on your business needs.<br>Discover various tutorials to build your first apps in a few minutes',
         title: 'Create your iOS app from scratch',
       },
     ]}
@@ -220,7 +220,7 @@ const DeployInHouse = props => (
 
     {[
       {
-        content: 'Distribute your App on the in-House',
+        content: 'Distribute your App on the in-House<br>Various tutorials are available to guide you through the in-House deployment process',
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
         title: 'Deploy in-House',
@@ -246,7 +246,7 @@ const DeployAppStore = props => (
 
     {[
       {
-        content: 'Distribute your App on the in App Store',
+        content: 'Distribute your App on the in App Store<br>Various tutorials are available to guide you through the App Store deployment process',
         image: imgUrl('deploy-Appstore.png'),
         imageAlign: 'right',
         title: 'Deploy in App Store',

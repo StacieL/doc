@@ -29,7 +29,11 @@ To fill that need, we are going to create an iPhone application called Contact. 
 ## STEP 1. GETTING STARTED
 Start by downloading the starter project, which contains the database file and the project icon, but no mobile project yet!
 
-Starter project.zip
+<div style="text-align: center; margin-top: 20px">
+<a class="button"
+href="../contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
+</div>
+
 
  
 
@@ -104,12 +108,11 @@ For fields icons definition there are several senaris:
 * At this point, the bottom part has changed from Template selection to Content definition
  
 
-* Simply drag and drop the fields that you want to be displayed in your Contact app : Last name into the search field and in the Title field
-* Search field and section field are optional. Leave section field empty for the moment.
- 
+* Simply drag and drop the fields that you want to be displayed in your Contact app : Last name into the search field and in the Title field. Search field and section field are optional. Leave section field empty for the moment.
+* Drag and drop the content to be displayed in the list view of your Contact app : First Name, Last Name, Job, Company, Phone and Notes
 
-* Let’s move to the Detail form definition. As for List Form, select a template that is  the most suitable for our contact app. Let’s select the Visual Contact template.
-* Drag and drop the content to be displayed in the detail view of your Contact app : First Name, Last Name, Job, Company, Phone and Notes
+* Let’s move to the Detail form definition. As for List Form, select a template that is  the most suitable for our contact app. Let’s select the Visual Contact template
+* Drag and drop the content to be displayed in the detail view of your Contact app : First Name, Last Name and Photo
 
 ## STEP 9. BUILD TIME
 
@@ -119,4 +122,15 @@ Now let’s go to the fun part ! Test your app on the simulator to see the final
 * Select the device that suits you the best clicking on the device button
 * Now click on the Build and Run Button
 * Wait a few seconds and…. Your iOS app is alive !
+
+## STEP 10. WHERE TO GO FROM THERE ?
+
+You've covered basic app creation in this tutorial, and you should now be able to create your own. But wait - there’s more! In the next tutorial , you’ll build an even more complex app.
+You can download the final project.
+
+
+<div style="text-align: center; margin-top: 20px">
+<a class="button"
+href="../contactDemoApp/ContactFinal.zip">FINAL PROJECT</a>
+</div>
 

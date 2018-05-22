@@ -5,7 +5,7 @@
     "Build TAB": ["testApp"]
   },
   "CreateiOSApp": {
-  	"Create your iOS App from scratch" : ["veryFirstApp","MyAccountantApp","MyinventoryApp","MyMedicalApp"]
+  	"Create your iOS App from scratch" : ["veryFirstApp"]
 
   },
   "TestiOSApp": {

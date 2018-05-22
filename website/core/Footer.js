@@ -33,33 +33,16 @@ class Footer extends React.Component {
               />
             )}
           </a>
-          <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('projectEditorOverview.html', this.props.language)}>
-              4D for iOS Overview
-            </a>
-            <a href={this.docUrl('veryFirstApp.html', this.props.language)}>
-              Create Your first iOS App
-            </a>
-            <a href={this.docUrl('RuninSimulator.html', this.props.language)}>
-              Test your App
-            </a>
-            <a href={this.docUrl('RegisterAppleDeveloperEnterpriseProgram.html', this.props.language)}>
-              Deploy in-House
-            </a>
-            <a href={this.docUrl('RegisterOrganization.html', this.props.language)}>
-              Deploy on App Store
-            </a>
-          </div>
-<div>          </div>
+          
+            <div>            
 
-          <div>
-            <h5>More</h5>
+            <h5>Community</h5>
+
             <a
-              href="https://blog.4d.com/tag/4d-for-ios/"
+              href="https://www.facebook.com/pg/4Dsoftware/posts/"
               target="_blank"
               rel="noreferrer noopener">
-              Blog
+              Facebook
             </a>
             <a
               href="https://twitter.com/4dtweets"
@@ -67,6 +50,18 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Twitter
             </a>
+                     <a
+              href="https://blog.4d.com/tag/4d-for-ios/"
+              target="_blank"
+              rel="noreferrer noopener">
+              Blog
+            </a>
+           
+          </div>
+
+          <div>
+            <h5>More</h5>
+  
             <a href="https://github.com/DavAz4D/doc">GitHub</a>
             <a
               className="github-button"
@@ -82,18 +77,6 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
-          href="https://code.facebook.com/projects/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={this.props.config.baseUrl + 'img/oss_logo.png'}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
