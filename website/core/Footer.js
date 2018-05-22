@@ -51,29 +51,23 @@ class Footer extends React.Component {
               Deploy on App Store
             </a>
           </div>
+<div>          </div>
+
           <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
+            <h5>More</h5>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="https://blog.4d.com/tag/4d-for-ios/"
               target="_blank"
               rel="noreferrer noopener">
-              Stack Overflow
+              Blog
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/4dtweets"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
             </a>
-          </div>
-          <div>
-            <h5>More</h5>
-            <a href={this.props.config.baseUrl + 'blog'}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/DavAz4D/doc">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -84,6 +78,7 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
+               
           </div>
         </section>
 

@@ -99,6 +99,7 @@ const Block = props => (
     id={props.id}
     background={props.background}>
     <GridBlock align="center" contents={props.children} layout={props.layout} />
+
   </Container>
 );
 
@@ -139,6 +140,8 @@ const Features = props =>
 
 );
 
+
+
 const FeatureCallout = props => (
   <div
 
@@ -158,9 +161,9 @@ const BuildYourApp = props => (
  
     {[
       {
-        image: imgUrl('simulator.png'),
+        image: imgUrl('Create-iOS-app-from-scratch.png'),
         imageAlign: 'left',
-        content: 'Create various apps depending on your business needs',
+        content: 'Create various apps depending on your business needs.<br> Discover various tutorials to build your first app in a few minutes',
         title: 'Create your iOS app from scratch',
       },
     ]}
@@ -218,7 +221,7 @@ const DeployInHouse = props => (
     {[
       {
         content: 'Distribute your App on the in-House',
-        image: imgUrl('simulator.png'),
+        image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
         title: 'Deploy in-House',
       },
@@ -244,7 +247,7 @@ const DeployAppStore = props => (
     {[
       {
         content: 'Distribute your App on the in App Store',
-        image: imgUrl('simulator.png'),
+        image: imgUrl('deploy-Appstore.png'),
         imageAlign: 'right',
         title: 'Deploy in App Store',
       },

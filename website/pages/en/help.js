@@ -23,8 +23,7 @@ class Help extends React.Component {
     const supportLinks = [
       {
         content: `Learn more using the [documentation on this site.](${docUrl(
-          'projectEditorOverview.html',
-          language
+          'docindex.html',language
         )})`,
         title: 'Browse Docs',
       },

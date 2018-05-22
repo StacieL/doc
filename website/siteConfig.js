@@ -39,10 +39,17 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'docindex', label: 'Docs'},
-    {doc: 'docindex', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+   // {doc: 'docindex', label: 'API'},
+   // {page: 'help', label: 'Help'},
+    //{blog: 'true', label: 'Blog'},
+    {search: true},
   ],
+
+algolia: {
+    apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+    indexName: 'davaz4d',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 
   // If you have users set above, you add it here:
   users,
@@ -57,6 +64,9 @@ const siteConfig = {
     primaryColor: '#0f949b', 
     secondaryColor: '#0f949b',
   },
+
+    editUrl: 'https://github.com/DavAz4D/doc/edit/master/docs/',
+
 
   /* custom fonts for website */
   /*fonts: {
