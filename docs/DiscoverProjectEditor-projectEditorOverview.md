@@ -51,5 +51,6 @@ The build tab present four options:
 * Simulator selection
 * Project and product browser
 * Install on device
+* toto
 
 </div>
