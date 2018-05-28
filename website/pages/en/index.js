@@ -111,7 +111,7 @@ const Features = props =>
 
     {[
       {
-        content: 'Define a subset of your phisical structure to replicate',
+        content: 'Define a subset of your physical structure to replicate',
         image: imgUrl('structure.png'),
         imageAlign: 'top',
         title: 'Structure',
@@ -220,7 +220,7 @@ const DeployInHouse = props => (
 
     {[
       {
-        content: 'Distribute your App on the in-House<br>Various tutorials are available to guide you through the in-House deployment process',
+        content: 'Distribute your App in-House<br>Various tutorials are available to guide you through the in-House deployment process',
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
         title: 'Deploy in-House',
@@ -246,10 +246,10 @@ const DeployAppStore = props => (
 
     {[
       {
-        content: 'Distribute your App on the in App Store<br>Various tutorials are available to guide you through the App Store deployment process',
+        content: 'Distribute your App on the App Store<br>Various tutorials are available to guide you through the App Store deployment process',
         image: imgUrl('deploy-Appstore.png'),
         imageAlign: 'right',
-        title: 'Deploy in App Store',
+        title: 'Deploy on App Store',
       },
     ]}
   </Block>
