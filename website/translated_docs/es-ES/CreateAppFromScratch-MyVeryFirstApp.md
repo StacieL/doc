@@ -29,7 +29,7 @@ Start by downloading the starter project, which contains the database file and t
 <div style="text-align: center; margin-top: 20px">
   
 <a class="button"
-href="../contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 </div>
 
 ## STEP 2. CREATING THE PROJECT
@@ -121,5 +121,5 @@ You've covered basic app creation in this tutorial, and you should now be able t
 <div style="text-align: center; margin-top: 20px">
   
 <a class="button"
-href="../contactDemoApp/ContactFinal.zip">FINAL PROJECT</a>
+href="../assets/contactDemoApp/ContactFinal.zip">FINAL PROJECT</a>
 </div>
