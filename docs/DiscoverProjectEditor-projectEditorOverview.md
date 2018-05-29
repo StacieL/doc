@@ -19,7 +19,6 @@ sidebar_label: Project Editor Overview
 * If your are looking for more comfort, the Launch Web Server at Startup option can also be activated
 </div>
 
-<div class = "pageStyle">
 
 Today we are going to take a look on how 4D for iOS works. Start your 4D application and open your current database. From here go straight to New>Mobile Project.
 
@@ -51,5 +50,3 @@ The build tab present four options:
 * Simulator selection
 * Project and product browser
 * Install on device
-
-</div>

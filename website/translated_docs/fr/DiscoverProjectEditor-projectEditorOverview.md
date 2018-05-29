@@ -15,7 +15,11 @@ sidebar_label: Project Editor Overview
 <div class = "prerequisites">
 <b>composants requis</b>
 
-* 4D service mobile doit être activé pour exposer vos données * Des ports HTTP et HTTPS bien configurés * si vous êtes à la recherche pour plus de confort, le serveur Web de lancement à l’option de démarrage peut aussi être activé </div> 
+* Le service 4D mobile doit être activé pour exposer vos données 
+* Les ports HTTP et HTTPS doivent être correctement configurés
+* Pour plus de confort, vous pouvez activer l'option Lancer Serveur Web au démarrage 
+</div> 
+
 
 Today we are going to take a look on how 4D for iOS works. Start your 4D application and open your current database. From here go straight to New>Mobile Project.
 

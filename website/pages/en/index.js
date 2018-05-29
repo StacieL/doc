@@ -111,7 +111,7 @@ const Features = props =>
 
     {[
       {
-        content: 'Define a subset of your phisical structure to replicate',
+        content: 'Define a subset of your physical structure to replicate',
         image: imgUrl('structure.png'),
         imageAlign: 'top',
         title: 'Structure',
@@ -147,7 +147,7 @@ const FeatureCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('projectEditorOverview.html', props.language)}>
+    <a className="button" href={docUrl('en/projectEditorOverview.html', props.language)}>
           GET STARTED
         </a>
 
@@ -177,7 +177,7 @@ const BuildYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('veryFirstApp.html', props.language)}>
+    <a className="button" href={docUrl('en/veryFirstApp.html', props.language)}>
           CREATE YOUR APP
         </a>
 
@@ -206,7 +206,7 @@ const TestYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('RuninSimulator.html', props.language)}>
+    <a className="button" href={docUrl('en/RuninSimulator.html', props.language)}>
           TEST YOUR APP
         </a>
 
@@ -220,7 +220,7 @@ const DeployInHouse = props => (
 
     {[
       {
-        content: 'Distribute your App on the in-House<br>Various tutorials are available to guide you through the in-House deployment process',
+        content: 'Distribute your App in-House<br>Various tutorials are available to guide you through the in-House deployment process',
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
         title: 'Deploy in-House',
@@ -234,7 +234,7 @@ const DeployInHouseCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('RegisterAppleDeveloperEnterpriseProgram.html', props.language)}>
+    <a className="button" href={docUrl('en/RegisterAppleDeveloperEnterpriseProgram.html', props.language)}>
         IN-HOUSE DEPLOYMENT
         </a>
 
@@ -246,10 +246,10 @@ const DeployAppStore = props => (
 
     {[
       {
-        content: 'Distribute your App on the in App Store<br>Various tutorials are available to guide you through the App Store deployment process',
+        content: 'Distribute your App on the App Store<br>Various tutorials are available to guide you through the App Store deployment process',
         image: imgUrl('deploy-Appstore.png'),
         imageAlign: 'right',
-        title: 'Deploy in App Store',
+        title: 'Deploy on App Store',
       },
     ]}
   </Block>
@@ -260,7 +260,7 @@ const DeployAppStoreCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('RegisterOrganization.html', props.language)}>
+    <a className="button" href={docUrl('en/RegisterOrganization.html', props.language)}>
         APP STORE DEPLOYMENT
         </a>
 
@@ -269,35 +269,7 @@ const DeployAppStoreCallout = props => (
 
 
 
-const Showcase = props => {
-  if ((siteConfig.users || []).length === 0) {
-    return null;
-  }
-  const showcase = siteConfig.users
-    .filter(user => {
-      return user.pinned;
-    })
-    .map((user, i) => {
-      return (
-        <a href={user.infoLink} key={i}>
-          <img src={user.image} alt={user.caption} title={user.caption} />
-        </a>
-      );
-    });
 
-  return (
-    <div className="productShowcaseSection paddingBottom" id="footerBloc">
-      <h2>{"Who's Using This?"}</h2>
-      <p>This project is used by all these people</p>
-      <div className="logos">{showcase}</div>
-      <div className="more-users">
-        <a className="button" href={pageUrl('users.html', props.language)}>
-          More {siteConfig.title} Users
-        </a>
-      </div>
-    </div>
-  );
-};
 
 class Index extends React.Component {
   render() {
@@ -318,7 +290,6 @@ class Index extends React.Component {
           <DeployAppStore/>
           <DeployAppStoreCallout/>
 
-          <Showcase language={language} />
         </div>
       </div>
     );
