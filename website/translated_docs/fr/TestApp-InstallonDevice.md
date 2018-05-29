@@ -52,5 +52,5 @@ Let us start from the beginning
 <div style="text-align: center">
   
 <a class="button"
-href="../AppInstallOnDevice.html">FIND ALL STEPS RIGHT HERE</a>
+href="../assets/AppInstallOnDevice.html">FIND ALL STEPS RIGHT HERE</a>
 </div>
