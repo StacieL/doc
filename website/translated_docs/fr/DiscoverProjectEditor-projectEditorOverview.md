@@ -1,21 +1,25 @@
 ---
 id: projectEditorOverview
 title:
-  4D for IOS: Vue d’ensemble de l’éditeur de projet
-sidebar_label: Vue d’ensemble de l’éditeur de projet
+  4D for IOS: Project Editor Overview
+sidebar_label: Project Editor Overview
 ---
 
 
 <div class = "objectives">
-<b>OBJECTIFS</b>
+<b>objectifs</b>
 
-* Se familiariser avec l’éditeur de projet
+* se familiariser avec l’éditeur de projet
 </div>
 
 <div class = "prerequisites">
-<b>PREREQUIS</b>
+<b>composants requis</b>
 
-* Le service 4D mobile doit être activé pour exposer vos données * Les ports HTTP et HTTPS doivent être correctement configurés -- TEST * Pour plus de confort, vous pouvez activer l'option Lancer Serveur Web au démarrage </div> 
+* Le service 4D mobile doit être activé pour exposer vos données 
+* Les ports HTTP et HTTPS doivent être correctement configurés
+* Pour plus de confort, vous pouvez activer l'option Lancer Serveur Web au démarrage 
+</div> 
+
 
 Today we are going to take a look on how 4D for iOS works. Start your 4D application and open your current database. From here go straight to New>Mobile Project.
 
