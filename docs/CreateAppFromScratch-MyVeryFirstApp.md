@@ -31,7 +31,7 @@ Start by downloading the starter project, which contains the database file and t
 
 <div style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
+href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 </div>
 
 
@@ -131,6 +131,6 @@ You can download the final project.
 
 <div style="text-align: center; margin-top: 20px">
 <a class="button"
-href="../contactDemoApp/ContactFinal.zip">FINAL PROJECT</a>
+href="../assets/contactDemoApp/ContactFinal.zip">FINAL PROJECT</a>
 </div>
 
