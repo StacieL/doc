@@ -1,7 +1,7 @@
 {
   "discoverProjectEditor": {
     "Discover the Project Editor": ["projectEditorOverview"],
-    "Sections": ["generalSection","structureSection","labelsIconsSection","mainMenuSection","formsSection"],
+    "Sections": ["generalSection","structureSection","labelsIconsSection","mainMenuSection","formsSection","publishingSection"],
     "Build": ["testApp"]
   },
   "CreateiOSApp": {

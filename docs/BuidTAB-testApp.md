@@ -1,22 +1,25 @@
 ---
 id: testApp
-title: Test Your App
+title: Test Your Application
 sidebar_label: Test Your App
 ---
 
-Finally, when your app is ready and you are satisfied you can launch the project in the simulator and test your project
+When you're satified that your application is ready, you can launch the project in the Simulator and test your project.
 
-Let’s see Build tab options in greater detail:
+Let’s look at the Build tab options in detail:
 
-Build and Run: launches the application in the simulator
-iPhone X: which is a default simulator. Clicking on it will reveal a drop down list with all simulators available
-Project: clicking on it will reveal a drop down list from which you can open the project folder, open the product folder or open the product with Xcode
-Install: installs the application on a connected device
+* Build and Run: Launches the application in the Simulator.
+
+* iPhone X: The default Simulator. Clicking here will reveal a dropdown list with all available simulators.
+
+* Project: Reveals a dropdown list where you can open the project or product folder, or open the product with Xcode.
+
+* Install: Installs the application on a connected device.
  
 
-Select the simulator device you want to build your app on, and press Build and Run button!
+Select a Simulator to build your application on, and press the Build and Run button.
 
 ![alt-text](assets/4DforiOSOverview/Build-Tab-4D-for-iOS.png)
 
-You can now start playing with 4D for iOS and build your own iOS project following those easy steps.
+You're now ready to explore 4D for iOS on your own and build your own iOS project!
 

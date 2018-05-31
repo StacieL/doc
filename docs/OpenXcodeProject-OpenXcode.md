@@ -9,7 +9,12 @@ sidebar_label: Open your project with Xcode
 <b>OBJECTIVES</b>
 
 * Open an iOS project from the Project Editor
-* Customize the generated iOS App
+</div>
+
+<div class = "caution">
+<b>CAUTION</b>
+
+* If you customize your project on Xcode and Build again from the Project Editor All your modifications will be lost
 </div>
 
 4D for iOS generates a native iOS app for you and let you modify and customize it right into Xcode. Let's see how to do this !

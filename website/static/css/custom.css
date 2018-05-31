@@ -45,6 +45,14 @@ background-color: #ebf1de;
 color:#333333;
 }
 
+.caution{	
+padding: 20px;
+margin-top: 22px;
+margin-bottom: 22px;
+background-color: #fdc2c2;
+color:#333333;
+}
+
 .prerequisites{	
 padding: 20px;
 margin-top: 22px;

@@ -1,44 +1,44 @@
 ---
 id: formsSection
-title: Time to play defining List and Detail Forms
+title: Time to define Forms
 sidebar_label: Forms
 ---
 
-In this section you will choose a List Form and Detail Form model for each Table.
+In this section, you select a list and detail form template for each Table.
 
-4D for iOS provide various templates with custom transition effects to build nice and clean iOS apps.
+4D for iOS provides various templates with custom transition effects to build fresh and modern iOS applications.
 
-Let’s analyze this screen and describe it, from the top to bottom:
+Here's the breakdown of this screen, from the top to bottom:
 
-* List Forms and Detail Forms tabs: switch between list and detail form definition for each table
-* Published tables: all tables that have been published in the Structure section are available here
-* Template and content definition: switch between template selection and content definition clicking on a table
+* List and Detail Forms: Allows switching between list and detail form definitions for each table
+* Published tables: Displays all tables published in the Structure section 
+* Available Forms: Allows switching between template selection and content definition
 
 ![alt-text](assets/4DforiOSOverview/Forms-section-templates-selection-4D-for-iOS.png)
 
 ## LIST FORM DEFINITION
 
-As default, a basic template is selected as List Form and Detail From but doesn’t include any content.
+Simple, empty templates are used by default for an application's list and detail forms.
 
-Simply select a template for your first table.
-When you have chosen a template, the content definition screen appears.
-You can then drag and drop the fields from the Field List on the left to the Model displayed at the right.
-Most of the List Forms includes optional Search fields and Section fields to sort your records in the app and make search.
+Select a template for your first table.
+Once done, the content definition screen appears.
+You can then drag and drop the fields from the Field List directly onto the Model displayed on the right.
+Most of the list forms include optional Search and Section fields.
 
  
 
 ## DETAIL FORM DEFINITION
 
-In the same way as for List Form definition, select the template that suits you, and drag and drop fields into your Detail Form
+As with the List Form definition, select a template and drag and drop your fields onto your detail form.
 
 ![alt-text](assets/4DforiOSOverview/Forms-section-content-definition-4D-for-iOS.png)
 
 
 
 <div class = "tips">
-<b>TIPS:</b>
+<b>TIP:</b>
 
-You want to change and use different List or Detail form template from the one initially defined? 
+Want to change your list or detail form template? 
 
-Field types are recognized and saved depending on the template you choose and field types
+Field types are automatically recognized and saved depending on the template and field types selected.
 </div>

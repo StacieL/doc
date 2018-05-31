@@ -19,4 +19,3 @@ title: Docs
 
 [Open & modify your project with Xcode](openXcodeProject.html)
 
-[Create new templates](OpenXcodeProject.html)
