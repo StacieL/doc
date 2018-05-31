@@ -1,7 +1,7 @@
 ---
 id: formsSection
 title: Time to play defining List and Detail Forms
-sidebar_label: Forms Section
+sidebar_label: Forms
 ---
 In this section you will choose a List Form and Detail Form model for each Table.
 
