@@ -17,5 +17,3 @@ title: Docs
 ## TECHNICAL DOCUMENTATION
 
 [Open & modify your project with Xcode](openXcodeProject.html)
-
-[Create new templates](OpenXcodeProject.html)
