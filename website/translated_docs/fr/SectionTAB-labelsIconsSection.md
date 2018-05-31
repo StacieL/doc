@@ -1,7 +1,7 @@
 ---
 id: labelsIconsSection
 title: Let's focus on Labels & Icons Section
-sidebar_label: Labels & Icons Section
+sidebar_label: Labels & Icons
 ---
 In this part you will be invited to define short and long labels as well as icons for your tables and fields
 
