@@ -1,6 +1,6 @@
 ---
 id: mainMenuSection
-title: Define your menu in Sections > Main Menu
+title: Main Menu
 sidebar_label: Main Menu
 ---
 * In the Available Tables list, you'll find all of the tables you published earlier in the Structure section. The Selected Tables list includes all of tables that will be accessible from the menu of your application.
