@@ -1,7 +1,7 @@
 ---
 id: generalSection
 title: Let's have a closer look to the General Section
-sidebar_label: General Section
+sidebar_label: General
 ---
 
 ![alt-text](assets/4DforiOSOverview/General-section-4D-for-iOS.png)

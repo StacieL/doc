@@ -1,8 +1,8 @@
 {
   "discoverProjectEditor": {
     "Discover the Project Editor": ["projectEditorOverview"],
-    "Section TAB": ["generalSection","structureSection","labelsIconsSection","mainMenuSection","formsSection"],
-    "Build TAB": ["testApp"]
+    "Sections": ["generalSection","structureSection","labelsIconsSection","mainMenuSection","formsSection"],
+    "Build": ["testApp"]
   },
   "CreateiOSApp": {
   	"Create your iOS App from scratch" : ["veryFirstApp"]
@@ -19,5 +19,8 @@
 
    "DeployAppStore": {
     "Deploy On AppStore" : ["RegisterOrganization","RegisterIndividual"]
+  },
+     "ModifyYourProjectWithXcode": {
+    "Modify your project with Xcode" : ["openXcodeProject","xcodePresentation","4DforiOSProjectPresentation","modifyXcodeProject"]
   }
 }

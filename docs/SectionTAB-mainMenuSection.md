@@ -1,7 +1,7 @@
 ---
 id: mainMenuSection
 title: Define your menu in the Main Menu Section
-sidebar_label: Main Menu Section
+sidebar_label: Main Menu
 ---
 
 * In Available Tables list at the left side, you will find all the tables you published earlier in the Structure section.
