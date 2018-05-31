@@ -1,33 +1,27 @@
 ---
 id: veryFirstApp
-title: Create your first app from scratch
-sidebar_label: My very first App
+title: Creating your first application 
+sidebar_label: My First App
 ---
-
-<div class = "objectives">
-<b>OBJECTIVES</b>
-
-* Create your very first app with 4D for iOS
-</div>
 
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* 4D mobile service must be activated to expose your data
-* A well configured HTTP Port and HTTPS Port
-* If your are looking for more comfort, the Launch Web Server at Startup option can also be activated
-* Last Xcode version installed in your Mac
+* 4D Mobile service must be activated to expose your data
+* Well-configured HTTP Port and HTTPS Port
+* For greater comfort, the Launch Web Server at Startup option can also be activated
+* Latest Xcode version installed on your Mac
 </div>
 
 
-This tutorial will make you dive right into 4D for iOS development. It will allow you to create your very first application very quickly.
+This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
-Imagine that you are a commercial business manager, and you want to consult your contact details on the go.
+Scenario: You're a commercial business manager and you want to consult your contact information on the go.
 
-To fill that need, we are going to create an iPhone application called Contact. You will be able to search for contact names from a listview and then visualize the detail of each contact clicking into the detailview.
+We're going to create an iPhone application called Contacts. You'll be able to search for contact names from a list and then view the details of each contact.
 
 ## STEP 1. GETTING STARTED
-Start by downloading the starter project, which contains the database file and the project icon, but no mobile project yet!
+Download the Starter Project, which contains a database file and project icon, but no mobile project yet!
 
 <div style="text-align: center; margin-top: 20px">
 <a class="button"
@@ -39,94 +33,90 @@ href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 
 ## STEP 2. CREATING THE PROJECT
 
-Let start with a very simple structure with just one Contact table. From 4D, go to New > Mobile project.
+Let's start with a very simple structure using a single Contacts table. From 4D, go to New > Mobile project.
 
-Give a name to your project and click Create.
+Give your project a name and click Create.
 
 ![alt-text](assets/CreateYourAppFromScratch/Project-creation-4D-for-iOS.png)
 
 
-## STEP 3. OPENING PROJECT EDITOR
+## STEP 3. OPENING THE PROJECT EDITOR
 
-Welcome to 4D for iOS! The welcome screen shows you what you will be able to do with this magnificent tool 🙂
-
+Welcome to 4D for iOS! The Welcome screen displays all the major steps of this magnificent tool 🙂
+https://davaz4d.github.io/doc/docs/en/RegisterAppleDeveloperEnterpriseProgram.html
 ![alt-text](assets/CreateYourAppFromScratch/Welcome-Screen-4D-for-iOS.png)
 
 Click Continue.
 
 
-## STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATIONS
+## STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION
 
-* Fill your Organisation name and the Identifier of your app for example “My Company” and com.MyCompany
-* Then choose your app Name. Let’s call it Contact.
-* By default, the Bundle ID is automatically generated as a composition of your organization identifier and product name
-* Leave the Version to 1.0 and define the Copyright of your app. It is highly recommended to keep the formats provided by 4D for iOS.
-* Drag and drop and icon into the Icon area
-* To fill the Developer part, go to your developer account and copy paste your developer Team reference into the Team Field
+* Organization: Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
+* Product: Enter your application's name. Let’s call this one "Contacts".
+-The ID (Bundle ID) is automatically generated as a composition of your organization identifier and product name
+- Leave the version as 1.0 and define your application's copyright. It's highly recommended to use the formats provided by 4D for iOS.
+* Icons: Drag and drop an icon into the icon area
+* Developer: The name is automatically filled from your user account. Copy/paste your developer team reference (from your developer account) into the Team field
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-general-section-4D-for-iOS.png)
 
 
-## STEP 5. SELECT YOUR DATA IN STRUCTURE SECTION
+## STEP 5. SECTIONS - STRUCTURE
 
-In this section you define a database subset that you want to expose to mobile
+In the Sections tab you can define a subset of your data to expose to mobile devices.
 
-For example you can choose First Name, Last Name, Job, Company, Phone, Notes and Photo.
+For our example, select First Name, Last Name, Job, Company, Phone, Notes and Photo.
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-structure-section-4D-for-iOS.png)
 
-## STEP 6. ICONS AND LABELS
+## STEP 6. SECTIONS - ICONS & LABELS
 
-* In Tables Properties, define a short and a long label for your Contact table
-* Click on the icon field to make the icon library appear and select an icon that illustrate well the Contact Table
-You can also decide to leave the icon field empty. 4D for iOS will generate a default icon for you !
+Table Properties: 
+* Define a short and a long label for your Contacts table
+* Click on the icon field. The icon library will appear and you can select an icon to illustrate the Contacts table.
+You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
 
-* Let’s move to the Fields Properties. Select a short and a long label for all the fields that you previously select in the Structure Section
-* As for Tables icon definition, select icons for each field
- 
-
-For fields icons definition there are several senaris:
-
-* Of course you can select an icon for each field
-* If at least one icon has been defined and some fields are leaved empty, 4D for iOS will generate default icons for you in the generated app
-* Leave empty all icon fields if you don’t want to display any icon on your app
+Field Properties:
+* Define a short and a long label for your selected fields.
+* Click on the icon field and select icons for each field. There are several options for field icons:
+- You can select an icon for each field,
+- If at least one icon has been defined and some fields are left empty, 4D for iOS will generate default icons for you, or
+- Leave the field icons empty if you don’t want to display icons in your application.
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## STEP 7. MAIN MENU DEFINITION
+## STEP 7. SECTIONS - MAIN MENU
 
-* In Available Tables list you can visualize all the table that have been previously published in the Structure section.
-* In Selected Tables you can find all your app menu items. For now there is only one item but in a future tutorial with more than one table you can reorder your items with drag and drop.
+* Available Tables: Displays the table(s) to be used.
+* Selected Tables: Displays your application's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-main-menu-section-4D-for-iOS.png)
 
-## STEP 8. FORMS DEFINITION
+## STEP 8. SECTIONS - FORMS
 
-* Select a form template to use as list for your table. Let’s choose the Profil List Form.
+* Select a form template to display your table as a list. For our Contacts application, let’s use the Profile list form.
  
-
-* At this point, the bottom part has changed from Template selection to Content definition
+At this point, the bottom of the configuration window has changed from Template selection to Content definition.
  
+* Drag and drop the fields you want displayed onto the template, i.e., Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
 
-* Simply drag and drop the fields that you want to be displayed in your Contact app : Last name into the search field and in the Title field. Search field and section field are optional. Leave section field empty for the moment.
-* Drag and drop the content to be displayed in the list view of your Contact app : First Name, Last Name, Job, Company, Phone and Notes
+Let’s move on to defining the Detail form. 
+* Select a template that is best suited for your application. For our Contacts application, let’s use the Visual Contact template
+* Drag and drop the content onto the detail view template, i.e., First Name, Last Name, and Photo.
 
-* Let’s move to the Detail form definition. As for List Form, select a template that is  the most suitable for our contact app. Let’s select the Visual Contact template
-* Drag and drop the content to be displayed in the detail view of your Contact app : First Name, Last Name and Photo
+## STEP 9. BUILD THE APPlICATION
 
-## STEP 9. BUILD TIME
+Now the fun part! Test your application on the Simulator to see the final result!
 
-Now let’s go to the fun part ! Test your app on the simulator to see the final result !
+* Click the Build tab
+* Select the device to use as a Simulator by clicking on the device button
+* Click the Build and Run button
+* Wait a few seconds and…. and voila! Your iOS application is alive!
 
-* Click to the Build tab
-* Select the device that suits you the best clicking on the device button
-* Now click on the Build and Run Button
-* Wait a few seconds and…. Your iOS app is alive !
+## STEP 10. WHERE TO GO FROM HERE?
 
-## STEP 10. WHERE TO GO FROM THERE ?
-
-You've covered basic app creation in this tutorial, and you should now be able to create your own. But wait - there’s more! In the next tutorial , you’ll build an even more complex app.
-You can download the final project.
+We've covered basic application creation in this tutorial, and you should now be able to create simple applications on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex application.
+Click on the Final Project button to download the final project.
 
 
 <div style="text-align: center; margin-top: 20px">

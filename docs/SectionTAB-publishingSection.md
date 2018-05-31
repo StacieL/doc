@@ -4,58 +4,57 @@ title: Publishing
 sidebar_label: Publishing
 ---
 
-In this section you can :
-* Define production URL
-* Define Authentication mode guest or require an email when the app is launched
-* Define Web server Settings
-* Create and edit the On Mobile app authentication database method
+Publishing is where you define or create the:
+* Web Server Settings
+* Authentication Mode 
+* Authentication Method
 
 ![alt-text](assets/4DforiOSOverview/Publishing-section-4D-for-iOS.png)
 
 
 ## WEB SERVER SETTINGS
-The communication between your app and the web server must be encrypted.
+Communication between your application and the web server must be encrypted.
 
-* The first thing you need to do is to activate and define your https port if it has not been defined yet. Click on the edit "Web Server Settings" button to do so.
+* Activate and define your HTTPS port, if you haven't already done so, by clicking on the Edit button for the "Web Server Settings".
 
-* Activate the https port implies certificates installation to work properly. You can also create certificates with 4D but only for test purpose.
+* Activating the HTTPS port requires certificate installation to work properly. You can also create certificates with 4D, but strictly for test purposes.
 
 <div class = "tips">
-<b>TIPS:</b>
+<b>TIP:</b>
 
-If the https is not properly defined or if certificates are missing the project editor will disply an issues indicator with a tip that indicates the nature for the issue.
+If either the HTTPS port is not properly defined or certificates are missing, the Project Editor will disply an indicator with a tip that describing the nature of the issue.
 </div>
 
 
 ## AUTHENTICATION MODE
 
-Just check the "Requires an email to connect" checkbox to display a login form when the application starts
+Authorized User: Check the "Requires an email to connect" checkbox to display a login form when the application starts
 
-Else leave the box unchecked if you want the app to be in guest mode (no login form will appear when the application starts)
-
-
-## DEFINE YOUR AUTHENTICATION METHOD
-
-* For developement purpose, the authentication method allows you to use the app in localhost 
-* For deployement purpose, you must create/edit your Authentication method to authorize specific emails, devices even if you are in guest mode.
-
-A template is already available in the created Database method 
-* to grant access for example email to specific domain 
-* to get all the informations you need about the session as weel as user informations including the email, app informations, device and team ID...
-
-You can customize this method according to your needs and goals ! 
+Guest: Leave the "Requires an email to connect" checkbox unchecked. No login form will appear when the application start.
 
 
-## HOW IT LOOKS IN THE IOS APP
+## AUTHENTICATION METHOD
 
-A Setting screen is available from the Tab bar or from a "More" Tab if there is more than 4 tables in your app.
+* Development: the authentication method allows you to use the application locally. 
+* Deployment: you must create/edit your Authentication method to authorize specific emails or devices, even when in guest mode.
+
+A template is already available in the existing On Mobile method to:
+* Grant access (i.e., email to specific domains) 
+* Obtain all necessary information about the session, as well as user information (the email address, app information, device, team ID, etc.)
+
+You can customize this method according to your needs! 
+
+
+## HOW IT LOOKS IN THE IOS APPLICATION
+
+A Settings screen is available from the tab bar. You can also find it from the "More" tab if necessary (i.e., your application has more than 4 tables).
 
 ![alt-text](assets/4DforiOSOverview/Setting-screen-Publishing-section-4D-for-iOS.png)
 
-From this Settings screen you will be able :
-* To reload data
-* Define your server url
-* If the "Requires an email to connect" option has been checked, then a login view appears when the app start and a logout button is available in the setting screen
+Settings allows you to:
+* Reload data
+* Define your server URL
+* Log out (if connected as an Authorized User).
 
 ![alt-text](assets/4DforiOSOverview/Login-screen-Publishing-section-4D-for-iOS.png)
 
