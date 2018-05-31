@@ -1,21 +1,21 @@
 ---
 id: structureSection
-title: Let's explore the structure section
+title: Let's explore the Sections > Structure
 sidebar_label: Structure
 ---
-This section displays all your database tables and fields that are exposed with 4D Mobile.
+This section displays all of your database tables and fields exposed with 4D Mobile.
 
 ![alt-text](assets/4DforiOSOverview/Structure-section-4D-for-iOS.png)
 
-Here you define a subset of your physical structure to replicate for mobile devices selecting tables and fields.
+Here, you can define a subset of your physical structure to replicate for mobile devices by selecting specific tables and fields. The selected:
 
-* Selected tables will be automatically added to the Tabbar of your app
-* Selected fields will be available later when it will be time to define the content of your list and detail forms.
+* tables will be automatically added to the tab bar of your application.
+* fields will be available later when it's time to define your list and detail forms.
 
-To help you define your app structure, filters, as well as a search engine are available to make easy tables and fields selection.
+To help you define your application structure, filters and a search engine are available to make your table and field selections easy.
 
 <div class = "tips">
-<b>TIPS:</b>
+<b>TIP:</b>
 
-You can publish a selection of fields pressing spacebar instead of select them one by one
+You can publish a selection of fields by pressing the spacebar rather than selecting them one by one.
 </div>
