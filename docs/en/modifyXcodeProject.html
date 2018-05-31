@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Customize your iOS App · 4D for iOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Customize your iOS App · 4D for iOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://davaz4d.github.io/doc/index.html"/><meta property="og:description" content="Let&#x27;s do some storyboard modification from the simpliest one to more complicated"/><meta property="og:image" content="https://davaz4d.github.io/doc/img/logo4DforiOS.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://davaz4d.github.io/doc/img/logo4DforiOS.png"/><link rel="shortcut icon" href="/doc/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/doc/css/main.css"/></head><body class="sideNavVisible doc separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/doc/en"><h2 class="headerTitle">4D for iOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/doc/docs/en/docindex.html" target="_self">Docs</a></li><li class=""><a href="/doc/docs/en/faq.html" target="_self">FAQ</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Modify your project with Xcode</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Modify your project with Xcode</h3><ul><li class="navListItem"><a class="navItem" href="/doc/docs/en/openXcodeProject.html">Open your project with Xcode</a></li><li class="navListItem"><a class="navItem" href="/doc/docs/en/xcodePresentation.html">Xcode Overview</a></li><li class="navListItem"><a class="navItem" href="/doc/docs/en/4DforiOSProjectPresentation.html">4D for iOS app architecture</a></li><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/doc/docs/en/modifyXcodeProject.html">Customize your iOS App</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/DavAz4D/doc/edit/master/docs/OpenXcodeProject-iOSProjectCustomization.md" target="_blank" rel="noreferrer noopener">Edit</a><h1>Customize your iOS App</h1></header><article><div><span><p>Let's do some storyboard modification from the simpliest one to more complicated</p>
+<h2><a class="anchor" aria-hidden="true" id="step-1-simple-label-modification"></a><a href="#step-1-simple-label-modification" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 1. SIMPLE LABEL MODIFICATION</h2>
+<p>Let's start from the beginning modifying a label font and color</p>
+<ul>
+<li>Open the ContactDetailsForm.storyboard file from the Project navigation tab</li>
+<li>Select the First Name Label. Simply click on it to select it from the interface builder or select it from the left panel where all your scene elements are displayed.</li>
+<li>Select the Attributes inspector panel from the Utility area</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Attributes-inspector-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<ul>
+<li>From here you change the font from Helvetica Neue Bold to Futura Bold for example</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Attributes-inspector-font-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<ul>
+<li>You can also change easily the color of the font from the same panel from white to black color for example</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Attributes-inspector-color-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<h2><a class="anchor" aria-hidden="true" id="step-2-change-profil-picture-position"></a><a href="#step-2-change-profil-picture-position" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 2. CHANGE PROFIL PICTURE POSITION</h2>
+<p>All 4D for iOS templates are using constraints for the app elements to be well displayed on all devices</p>
+<p>Actually in the ContactDetailsForm.storyboard file, the picture is aligned center with First Name label and Last Name label.</p>
+<p>We want to get this :</p>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Simlator-Final-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Align vertically the picture and put the first name and last name at the right of the picture</p>
+<p>Select the image profil and go straight to Size attributes panel from the Utility area.
+From here change the X value from 161.67 to 40.67 and the Y value from 28 to 79.</p>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Profil-picture-position-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>As you can see the position has changed but Xcode displays yellow lines...
+Those yellow lines reprents contraints that are no longer valid.</p>
+<h2><a class="anchor" aria-hidden="true" id="step-3-update-profil-picture-constraints"></a><a href="#step-3-update-profil-picture-constraints" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 3. UPDATE PROFIL PICTURE CONSTRAINTS</h2>
+<p>Basically to center verticaly the picture in the Superview (view that contains it) we want to delete existing constraints and add new ones.</p>
+<p>Currently the image as the following constraints :</p>
+<ul>
+<li>Width Equals : fixed width equal to 78</li>
+<li>Height Equals : fixed height equal to 78</li>
+<li>Align Center X : that previously defines to center horizontally</li>
+<li>Top Space : fixed top space from top view that contains the view</li>
+<li>Bottom space to <First Name> : that previously defines bottom space between the First Name and the Picture</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Profil-picture-constraints-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Delete all constraints exept Width and Height selecting them from the Size inspector in the Constraints section. The picture outlines should be now in red color because constraints are missing.</p>
+<p>So click on the Align button on the bottom of the Interface Builder window and check &quot;Vertically in container&quot; checkbox.</p>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Profil-picture-Align-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Then click on the Add new constraints button and add a Leading Space constraints (left constraint).</p>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Profil-picture-new-constraints-4D-for-iOS.png" alt="alt-text"></p>
+<p>At this point All profil picture constraints should be blue !</p>
+<p>Congratulations, your profil picture is well postionned the right constraints contraints :)</p>
+<p>Let's do the same exercice with First Name Label and Last Name Label.</p>
+<div class = "tips">
+<b>TIPS:</b>
+<ul>
+<li><p>To create a constraint between two views, Control-click one of the views and drag to the other. When you release the mouse, Interface Builder displays a menu with a list of possible constraints.</p></li>
+<li><p>You can delete constraints selecting them from the Size inspector or directly from the Interface Builder</p></li>
+</ul>
+</div>
+<h2><a class="anchor" aria-hidden="true" id="step-4-update-header-labels-postion-and-constraints"></a><a href="#step-4-update-header-labels-postion-and-constraints" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 4. UPDATE HEADER LABELS POSTION AND CONSTRAINTS</h2>
+<h4><a class="anchor" aria-hidden="true" id="let-s-work-on-the-first-name-label"></a><a href="#let-s-work-on-the-first-name-label" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Let's work on the First Name Label</h4>
+<p>Change the position and the width :</p>
+<ul>
+<li>Select the First Name Label from the interface builder</li>
+<li>Then change the width from 386 to 267</li>
+<li>Change the X value from 8 to 127 and the Y value from 28 to 79.</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/First-Name-Label-position-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Put adapted constraints :</p>
+<ul>
+<li>Delete the Leading Space and the Bottom Space constraints from the Size inspector</li>
+<li>Add a Leading Space constraints clicking on the &quot;Add new constraints&quot; button for the First Name label position to be at the right of the Profil picture</li>
+<li>Control-Click the First Name label and drag to the Profil picture. Select the Top constraint in the menu to align top both elements.</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<h4><a class="anchor" aria-hidden="true" id="finally-select-the-last-name-label"></a><a href="#finally-select-the-last-name-label" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Finally select the Last Name Label</h4>
+<p>Change the position and the width :</p>
+<ul>
+<li>Select the last Name Label from the interface builder</li>
+<li>Then change the width from 386 to 267</li>
+<li>Change the X value from 8 to 127 and the Y value from 144.33 to 118.33.</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Last-Name-Label-position-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Put adapted constraints :</p>
+<ul>
+<li>Delete the Leading Space constraints from the Size inspector</li>
+<li>Add a Leading Space and top constraints clicking on the &quot;Add new constraints&quot; button</li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Your header labels are now well postionned.</p>
+<p>Let's see the result on the simulator !</p>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Simulator-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>Not exaclty the result we want to get...</p>
+<ul>
+<li><p>Select the First Name and the Last Name label and change the alignment from center to left from the Attributes inspector
+<img src="/doc/docs/assets/OpenYourProjectWithXcode/Labels-Alignment-Xcode-4D-for-iOS.png" alt="alt-text"></p></li>
+<li><p>Then select the Profil picture and Double click on the Leading space constaint.</p></li>
+<li><p>Change the Contact value from 40.67 to 80</p></li>
+</ul>
+<p><img src="/doc/docs/assets/OpenYourProjectWithXcode/Constraints-adjustments-Xcode-4D-for-iOS.png" alt="alt-text"></p>
+<p>As you can see all constraints are working well and the label are adjusting well without breaking other constraints</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="4DforiOSProjectPresentation.html">← 4D for iOS app architecture</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-simple-label-modification">STEP 1. SIMPLE LABEL MODIFICATION</a></li><li><a href="#step-2-change-profil-picture-position">STEP 2. CHANGE PROFIL PICTURE POSITION</a></li><li><a href="#step-3-update-profil-picture-constraints">STEP 3. UPDATE PROFIL PICTURE CONSTRAINTS</a></li><li><a href="#step-4-update-header-labels-postion-and-constraints">STEP 4. UPDATE HEADER LABELS POSTION AND CONSTRAINTS</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/doc/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/pg/4Dsoftware/posts/" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4dtweets" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a></div><div><h5>More</h5><a href="https://github.com/DavAz4D/doc">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2018 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+              var search = docsearch({
+                
+                apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
+                indexName: 'davaz4d',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
