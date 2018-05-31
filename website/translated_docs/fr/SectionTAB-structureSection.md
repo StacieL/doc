@@ -1,6 +1,6 @@
 ---
 id: structureSection
-title: Let's explore the Sections > Structure
+title: Structure
 sidebar_label: Structure
 ---
 This section displays all of your database tables and fields exposed with 4D Mobile.
