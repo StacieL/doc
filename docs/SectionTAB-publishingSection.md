@@ -52,7 +52,10 @@ A Setting screen is available from the Tab bar or from a "More" Tab if there is 
 
 ![alt-text](assets/4DforiOSOverview/Setting-screen-Publishing-section-4D-for-iOS.png)
 
-If the "Requires an email to connect" option has been checked, then a login view appears when the app start and a logout button is available in the setting screen
+From this Settings screen you will be able :
+* To reload data
+* Define your server url
+* If the "Requires an email to connect" option has been checked, then a login view appears when the app start and a logout button is available in the setting screen
 
 ![alt-text](assets/4DforiOSOverview/Login-screen-Publishing-section-4D-for-iOS.png)
 
