@@ -1,6 +1,6 @@
 ---
 id: generalSection
-title: Let's take a closer look at Sections > General
+title: General
 sidebar_label: General
 ---
 

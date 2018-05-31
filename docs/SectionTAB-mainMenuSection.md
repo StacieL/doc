@@ -1,6 +1,6 @@
 ---
 id: mainMenuSection
-title: Define your menu in Sections > Main Menu
+title: Main Menu
 sidebar_label: Main Menu
 ---
 

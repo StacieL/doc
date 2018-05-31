@@ -1,6 +1,6 @@
 ---
 id: structureSection
-title: Let's explore the Sections > Structure
+title: Structure
 sidebar_label: Structure
 ---
 

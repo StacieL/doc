@@ -1,6 +1,6 @@
 ---
 id: labelsIconsSection
-title: Let's focus on Sections > Labels & Icons Section
+title: Labels & Icons
 sidebar_label: Labels & Icons
 ---
 
