@@ -9,9 +9,9 @@ In this section, you select a list and detail form template for each Table.
 
 Here's the breakdown of this screen, from the top to bottom:
 
-* List and Detail Forms: Allows switching between list and detail form definitions for each table
-* Published tables: Displays all tables published in the Structure section 
-* Available Forms: Allows switching between template selection and content definition
+* **List and Detail Forms:** Allows switching between list and detail form definitions for each table
+* **Published tables:** Displays all tables published in the Structure section 
+* **Available Forms:** Allows switching between template selection and content definition
 
 ![alt-text](assets/4DforiOSOverview/Forms-section-templates-selection-4D-for-iOS.png)
 
