@@ -1,0 +1,21 @@
+---
+id: Deployment
+title: Deployment Overview
+sidebar_label: Deployment Overview
+---
+
+
+<div class = "objectives">
+<b>OBJECTIVES</b>
+
+* Choose your Apple Developer Program
+</div>
+
+You need to have a valid Apple Developer account to distribute an iOS app :
+
+* Apple Developer Program – $99/year 
+* Apple Developer Enterprise Program – $299/year
+
+The main difference is that the Apple Developer Enterprise Program provides resources ONLY for developing and distributing **proprietary, in-house apps** to employees.
+
+On the other hand, the Apple Developer program allows you to distribute your app **on the App Store**.
