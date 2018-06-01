@@ -15,7 +15,7 @@ sidebar_label: Project Editor Overview
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* 4D Mobile must be activated * Well-configured HTTP and HTTPS ports * For greater comfort, the Launch Web Server at Startup option can also be activated </div> 
+* 4D Mobile must be activated * Well-configured HTTP and HTTPS ports * For greater comfort, the Launch Web Server at Startup option can also be activated * Latest Xcode version installed on your Mac </div> 
 
 Let's take a look at how 4D for iOS works. Start your 4D application and open your current database. From here, go to New > Mobile Project.
 
