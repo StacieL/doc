@@ -7,65 +7,67 @@ sidebar_label: Xcode Overview
 <div class = "objectives">
 <b>OBJECTIVES</b>
 
-* Have a basic understanding of how to navigate in Xcode
+* Ensure a basic understanding of working with Xcode.
 </div>
 
 
-Xcode displays various areas that we are going to pass through :
+Xcode displays various areas that we're going to review:
 
 ![alt-text](assets/OpenYourProjectWithXcode/Discover-Xcode-4D-for-iOS.png)
 
-## The Toolbar
+## THE TOOLBAR
 
-* The buttons at the left are the Build and Stop buttons. Pressing the Run button will build and run your application and launch your app in the selected iOS Simulator. 
+* Run and Stop buttons are located on the left side of the toolbar. Pressing the Run button will build, and run, and launch your application in the selected iOS Simulator. 
 ![alt-text](assets/OpenYourProjectWithXcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
 
-* The dropdown menu next the Stop button indicates which build target you want to run and which Simulator you want to build and run your app on
+* The dropdown menu next to the Stop button indicates which build target you want to run and which Simulator is being used.
 ![alt-text](assets/OpenYourProjectWithXcode/Toolbar-Target-simulator-Xcode-4D-for-iOS.png)
 
-* On the right corner of the toolbar, you can find View buttons to show and hide the various areas
+* On the right side of the toolbar, you'll find View buttons to show and hide the various areas.
 ![alt-text](assets/OpenYourProjectWithXcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
 
-## The Editor area
+## THE EDITOR AREA
 
 ![alt-text](assets/OpenYourProjectWithXcode/Editor-Xcode-4D-for-iOS.png)
 
-This area is where all the coding happens when a swift file is selected.
-You can notice that the Editor area changes when astoryboard file is selected : the Interface Builder View appears.
+This is where the coding happens when a Swift file is selected.
+It changes when a Storyboard file is selected: the Interface Builder View appears.
 
 
-## Interface Builder area
+## INTERFACE BUILDER AREA
 
 ![alt-text](assets/OpenYourProjectWithXcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
-The interface builder is a graphical interface to allow you to build your Storyboard or a XIB file. At the left all your scenes are available with all 
+This is a graphical interface which allows you to build a Storyboard or XIB file. On the left, all of your scenes are available. 
 
 
-## The Utility area
+## THE UTILITY AREA
 
 ![alt-text](assets/OpenYourProjectWithXcode/Utility-Xcode-4D-for-iOS.png)
 
-This area inculdes the inspector panel and the Library panel :
+* <b>Inspector panel</b>: Provides details about the selected file in your project navigator. The Inspector panel is very similar to the Property list.
+* <b>Library panel</b>: When using the Interface Builder, you can drag UI elements from here to add them to your user interface.
 
-* The Inspector panel will give you details about the selected file in your project navigator.
-* When you’re using the Interface Builder, you can drag UI elements from the Object Library panel to add that element to your user interface.
-
-## The Debug area
- The area displays outputs and the state of various variables when you run your application.
+## THE DEBUG AREA
+ This area displays the output and the state of various variables when running your application.
 
 
-## The Navigation area
-The Navigation area includes several tabs. The most important tabs are :
+## THE NAVIGATION AREA
+This area includes several tabs. The most important of which are:
 
-* The Project navigation tab : includes all files necessary for your application to work properly.
+* <b>Navigation tab</b>: Includes all files necessary for your application to work properly.
 ![alt-text](assets/OpenYourProjectWithXcode/Project-Navigation-Editor-Xcode-4D-for-iOS.png)
 
-* The Search navigator tab : you can do research in your entire project from this tab
+* <b>Search navigator tab</b>: Allows searching all files in the project.
 ![alt-text](assets/OpenYourProjectWithXcode/Search-Navigator-Xcode-4D-for-iOS.png)
 
-* The Issue navigator tab : shows all error in your iOS project. Red colored errors for the bad ones that you need to correct to build your app and yellow warnings that can lead to issues but are not blocking to build the project. You can click on errors and warnings to visualize them in the project.
+* <b>Issue navigator tab</b>: Displays all errors in an iOS project. 
+- Errors in red are critical issues that need to be corrected in order to build your application. 
+- Errors in yellow are warnings about issues which have the potential to cause problems but do not block the building of the application. 
+
+You can click on errors and warnings to visualize them in the project.
 ![alt-text](assets/OpenYourProjectWithXcode/Issue-Navigator-Xcode-4D-for-iOS.png)
 
 
-Next step, we are going to focus on files included in your iOS project from the Project navigation tab.
+Next, we're going to focus on the files included in your 4D for iOS application from the Project navigation tab.

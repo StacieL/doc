@@ -7,15 +7,13 @@ title: Docs
 
 [4D for iOS Overview](projectEditorOverview.html)
 
-[Create iOS Apps From scratch](veryFirstApp.html)
+[Create a 4D for iOS App](veryFirstApp.html)
 
 [Test your App](RuninSimulator.html)
 
-[Deploy In House](RegisterAppleDeveloperEnterpriseProgram.html)
-
-[Deploy App Store](RegisterOrganization.html)
+[Deploy your App](Deployment.html)
 
 ## TECHNICAL DOCUMENTATION
 
-[Open & modify your project with Xcode](openXcodeProject.html)
+[Working with Xcode](openXcodeProject.html)
 

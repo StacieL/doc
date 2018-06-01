@@ -28,9 +28,9 @@ If either the HTTPS port is not properly defined or certificates are missing, th
 
 ## AUTHENTICATION MODE
 
-Authorized User: Check the "Requires an email to connect" checkbox to display a login form when the application starts
+<b>Authorized User:</b> Check the "Requires an email to connect" checkbox to display a login form when the application starts
 
-Guest: Leave the "Requires an email to connect" checkbox unchecked. No login form will appear when the application start.
+<b>Guest:</b> Leave the "Requires an email to connect" checkbox unchecked. No login form will appear when the application start.
 
 
 ## AUTHENTICATION METHOD

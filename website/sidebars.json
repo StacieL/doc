@@ -12,13 +12,8 @@
     "Test your iOS app" : ["RuninSimulator","InstallonDevice"]
   },
 
-
-  "DeployinHouse": {
-  	"Deploy In-House" : ["RegisterAppleDeveloperEnterpriseProgram"]
-  },
-
-   "DeployAppStore": {
-    "Deploy On AppStore" : ["RegisterOrganization","RegisterIndividual"]
+   "Deploy": {
+    "Deploy your app" : ["Deployment","RegisterAppleDeveloperEnterpriseProgram","RegisterOrganization","RegisterIndividual"]
   },
      "ModifyYourProjectWithXcode": {
     "Modify your project with Xcode" : ["openXcodeProject","xcodePresentation","4DforiOSProjectPresentation","modifyXcodeProject"]

@@ -83,8 +83,7 @@ class HomeSplash extends React.Component {
             <Button href={docUrl('projectEditorOverview.html', language)}>4D for iOS Overview</Button>
             <Button href={docUrl('veryFirstApp.html', language)}>Create</Button>
             <Button href={docUrl('RuninSimulator.html', language)}>Test</Button>
-            <Button href={docUrl('RegisterAppleDeveloperEnterpriseProgram.html', language)}>Deploy In House</Button>
-            <Button href={docUrl('RegisterOrganization.html', language)}>Deploy App Store</Button>
+            <Button href={docUrl('Deployment.html', language)}>Deploy</Button>
 
           </PromoSection>
         </div>
@@ -111,25 +110,25 @@ const Features = props =>
 
     {[
       {
-        content: 'Define a subset of your physical structure to replicate',
+        content: 'Define a subset of your physical structure to replicate.',
         image: imgUrl('structure.png'),
         imageAlign: 'top',
         title: 'Structure',
       },
       {
-        content: 'Choose  the layouts and the style of your app in a few steps',
+        content: 'Choose the layouts and style of your application in just a few, short steps.',
         image: imgUrl('design.png'),
         imageAlign: 'top',
         title: 'Design',
       },
       {
-        content: 'Create your Xcode project in one click and run your app on any iPhone',
+        content: 'Create an Xcode project in one click and run your application on any iPhone.',
         image: imgUrl('generateTest.png'),
         imageAlign: 'top',
         title: 'Generate & Test',
       },
       {
-        content: 'Choose an in-house or App Store deployment model to distribute your app',
+        content: 'Choose an in-house or App Store deployment model to distribute your application.',
         image: imgUrl('deploy.png'),
         imageAlign: 'top',
         title: 'Deploy',
@@ -163,8 +162,8 @@ const BuildYourApp = props => (
       {
         image: imgUrl('Create-iOS-app-from-scratch.png'),
         imageAlign: 'left',
-        content: 'Create various apps depending on your business needs.<br>Discover various tutorials to build your first apps in a few minutes',
-        title: 'Create your iOS app from scratch',
+        content: 'Create various applications depending on your needs.<br>Discover multiple tutorials to quickly build your first application.',
+        title: 'Create your 4D for iOS application',
       },
     ]}
 
@@ -192,8 +191,8 @@ const TestYourApp = props => (
       {
         image: imgUrl('simulator.png'),
         imageAlign: 'right',
-        content: 'Test your App in the simulator or directly on your own device',
-        title: 'Test your App',
+        content: 'Test your application in the Simulator or your own device.',
+        title: 'Testing',
       },
     ]}
 
@@ -215,53 +214,27 @@ const TestYourAppCallout = props => (
 
 
 
-const DeployInHouse = props => (
+const Deploy = props => (
   <Block id="whiteBloc">
 
     {[
       {
-        content: 'Distribute your App in-House<br>Various tutorials are available to guide you through the in-House deployment process',
+        content: 'Distribute your application in-house or on the App Store.<br>Multiple tutorials are available to guide you through the App Store deployment process.',
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
-        title: 'Deploy in-House',
+        title: 'Deploy your App',
       },
     ]}
   </Block>
 );
 
-const DeployInHouseCallout = props => (
+const DeployCallout = props => (
     <div id = "whiteBloc"
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/RegisterAppleDeveloperEnterpriseProgram.html', props.language)}>
-        IN-HOUSE DEPLOYMENT
-        </a>
-
-  </div>
-);
-
-const DeployAppStore = props => (
-  <Block id="greyBloc">
-
-    {[
-      {
-        content: 'Distribute your App on the App Store<br>Various tutorials are available to guide you through the App Store deployment process',
-        image: imgUrl('deploy-Appstore.png'),
-        imageAlign: 'right',
-        title: 'Deploy on App Store',
-      },
-    ]}
-  </Block>
-);
-
-const DeployAppStoreCallout = props => (
-    <div id = "greyBloc"
-
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/RegisterOrganization.html', props.language)}>
-        APP STORE DEPLOYMENT
+    <a className="button" href={docUrl('en/Deployment.html', props.language)}>
+        DEPLOY YOUR APP
         </a>
 
   </div>
@@ -285,10 +258,8 @@ class Index extends React.Component {
           <BuildYourAppCallout/>
           <TestYourApp/>
           <TestYourAppCallout/>
-          <DeployInHouse/>
-          <DeployInHouseCallout/>
-          <DeployAppStore/>
-          <DeployAppStoreCallout/>
+          <Deploy/>
+          <DeployCallout/>
 
         </div>
       </div>

@@ -17,6 +17,7 @@ sidebar_label: Project Editor Overview
 * 4D Mobile must be activated
 * Well-configured HTTP and HTTPS ports
 * For greater comfort, the Launch Web Server at Startup option can also be activated
+* Latest Xcode version installed on your Mac
 </div>
 
 

@@ -1,148 +1,147 @@
 ---
 id: modifyXcodeProject
-title: Customize your iOS App
-sidebar_label: Customize your iOS App
+title: Customize your 4D for iOS application
+sidebar_label: Customize your 4D for iOS application
 ---
 
 
-Let's do some storyboard modification from the simpliest one to more complicated
+Let's do some Storyboard modification ... from simple to complex.
 
 ## STEP 1. SIMPLE LABEL MODIFICATION
 
-Let's start from the beginning modifying a label font and color
+Let's start by modifying a label's font and color:
 
-* Open the ContactDetailsForm.storyboard file from the Project navigation tab 
-* Select the First Name Label. Simply click on it to select it from the interface builder or select it from the left panel where all your scene elements are displayed.
-* Select the Attributes inspector panel from the Utility area
+* Open the ContactDetailsForm.storyboard file from the Navigation tab. 
+* Click on the First Name label (you can also select it from the interface builder or the left panel).
+* Select the Attributes inspector panel from the Utility area.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Attributes-inspector-Xcode-4D-for-iOS.png)
 
-* From here you change the font from Helvetica Neue Bold to Futura Bold for example
+* Change the font from Helvetica Neue Bold to Futura Bold. 
 
 ![alt-text](assets/OpenYourProjectWithXcode/Attributes-inspector-font-Xcode-4D-for-iOS.png)
 
-* You can also change easily the color of the font from the same panel from white to black color for example
+* You can also easily change the color of the font from the same panel.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
 
-## STEP 2. CHANGE PROFIL PICTURE POSITION
+## STEP 2. CHANGE PROFILE PICTURE POSITION
 
-All 4D for iOS templates are using constraints for the app elements to be well displayed on all devices
+All 4D for iOS templates use constraints for the application elements so they'll  display well on all devices.
 
-Actually in the ContactDetailsForm.storyboard file, the picture is aligned center with First Name label and Last Name label. 
+In the ContactDetailsForm.storyboard file, the picture, First Name, and Last Name labels are currently center aligned. 
 
-We want to get this :
+We want to change it to appear like this :
 
 ![alt-text](assets/OpenYourProjectWithXcode/Simlator-Final-Xcode-4D-for-iOS.png)
 
-Align vertically the picture and put the first name and last name at the right of the picture
+Vertically align the picture and put the First Name and Last Name labels to the right of the picture.
 
-Select the image profil and go straight to Size attributes panel from the Utility area.
-From here change the X value from 161.67 to 40.67 and the Y value from 28 to 79.
+Next, select the image profile and go to the Size attributes panel from the Utility area. Change the X value from 161.67 to 40.67 and the Y value from 28 to 79.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Profil-picture-position-Xcode-4D-for-iOS.png)
 
-As you can see the position has changed but Xcode displays yellow lines...
-Those yellow lines reprents contraints that are no longer valid.
+As you can see, the position has changed but Xcode is displaying yellow lines...why?
+Those yellow lines represent contraints which are no longer valid.
 
 
-## STEP 3. UPDATE PROFIL PICTURE CONSTRAINTS
+## STEP 3. UPDATE PROFILE PICTURE CONSTRAINTS
 
-Basically to center verticaly the picture in the Superview (view that contains it) we want to delete existing constraints and add new ones.
+To vertically align the picture in the center in the Superview (view which contains it), we need to delete the existing constraints and add new ones.
 
-Currently the image as the following constraints :
-* Width Equals : fixed width equal to 78
-* Height Equals : fixed height equal to 78
-* Align Center X : that previously defines to center horizontally
-* Top Space : fixed top space from top view that contains the view
-* Bottom space to <First Name> : that previously defines bottom space between the First Name and the Picture
+The image currently has the following constraints:
+* Width Equals: A fixed width of 78 pixels.
+* Height Equals: A fixed height of 78 pixels.
+* Align Center X: Centers the image on a previously defined horizontal axis.
+* Top Space: A fixed amount of space from the top of the image to the top of the view.
+* Bottom space to <First Name>: The previously defined space between the First Name label and the image.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Profil-picture-constraints-Xcode-4D-for-iOS.png)
 
 
-Delete all constraints exept Width and Height selecting them from the Size inspector in the Constraints section. The picture outlines should be now in red color because constraints are missing.
+Delete all of the constraints except Width and Height (you'll select these from the Size inspector in the Constraints section). The picture outline should be now in red  because the constraints are missing.
 
-So click on the Align button on the bottom of the Interface Builder window and check "Vertically in container" checkbox.
+Click on the Align button (at the bottom of the Interface Builder window) and check  the "Vertically in container" checkbox.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Profil-picture-Align-Xcode-4D-for-iOS.png)
 
-Then click on the Add new constraints button and add a Leading Space constraints (left constraint).
+Next, click on the Add New Constraints button and add a leading space constraint (the left constraint).
 
 ![alt-text](assets/OpenYourProjectWithXcode/Profil-picture-new-constraints-4D-for-iOS.png)
 
-At this point All profil picture constraints should be blue !
+At this point, all the profile picture constraints should be blue!
 
-Congratulations, your profil picture is well postionned the right constraints contraints :)
+Congratulations! Your profile picture is now well postionned with the correct constraints. :)
 
-Let's do the same exercice with First Name Label and Last Name Label.
+Now repeat the same steps for the First Name and Last Name labels.
 
 
 <div class = "tips">
 <b>TIPS:</b>
 
-* To create a constraint between two views, Control-click one of the views and drag to the other. When you release the mouse, Interface Builder displays a menu with a list of possible constraints.
+* To create a constraint between two views, Control + click on one of the views and drag to the other. When you release the mouse button, the Interface Builder displays a menu with a list of possible constraints.
 
-* You can delete constraints selecting them from the Size inspector or directly from the Interface Builder
+* You can delete constraints by either selecting them from the Size inspector or  directly from the Interface Builder.
 </div>
 
 
-## STEP 4. UPDATE HEADER LABELS POSTION AND CONSTRAINTS 
+## STEP 4. UPDATE LABEL POSTIONS AND CONSTRAINTS 
 
-#### Let's work on the First Name Label
+#### Let's work on the First Name label.
 
-Change the position and the width :
-* Select the First Name Label from the interface builder
-* Then change the width from 386 to 267
-* Change the X value from 8 to 127 and the Y value from 28 to 79.
+We'll begin by changing the position and width:
+* Select the First Name label from the Interface Builder.
+* Next, change the Width from 386 to 267 pixels.
+* Change the X value from 8 to 127 pixels and the Y value from 28 to 79 pixels.
 
 ![alt-text](assets/OpenYourProjectWithXcode/First-Name-Label-position-Xcode-4D-for-iOS.png)
 
-Put adapted constraints :
-* Delete the Leading Space and the Bottom Space constraints from the Size inspector
-* Add a Leading Space constraints clicking on the "Add new constraints" button for the First Name label position to be at the right of the Profil picture
-* Control-Click the First Name label and drag to the Profil picture. Select the Top constraint in the menu to align top both elements.
+Modify the remaining constraints:
+* Delete the leading space and the bottom space constraints from the Size inspector.
+* Add a leading space constraint by clicking on the Add New Constraints button to position the First Name label to the right of the Profile picture.
+* Control + click the First Name label and drag it to the Profile picture. Select the top constraint in the menu to top align both elements.
 
 ![alt-text](assets/OpenYourProjectWithXcode/First-Name-Label-top-constraint-Xcode-4D-for-iOS.png)
 
 
-#### Finally select the Last Name Label
+#### Finally, select the Last Name label.
 
-Change the position and the width :
-* Select the last Name Label from the interface builder
-* Then change the width from 386 to 267
-* Change the X value from 8 to 127 and the Y value from 144.33 to 118.33.
+Change the position and width:
+* Select the Last Name label from the Interface Builder.
+* Change the width from 386 to 267 pixels.
+* Change the X value from 8 to 127 pixels and the Y value from 144.33 to 118.33 pixels.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Last-Name-Label-position-Xcode-4D-for-iOS.png)
 
 
-Put adapted constraints :
-* Delete the Leading Space constraints from the Size inspector
-* Add a Leading Space and top constraints clicking on the "Add new constraints" button 
+Modify the remaining constraints:
+* Delete the leading space constraints from the Size inspector.
+* Add a leading space and top constraints by clicking on the Add New Constraints button. 
 
 
 ![alt-text](assets/OpenYourProjectWithXcode/Last-Name-Label-constraint-Xcode-4D-for-iOS.png)
 
 
-Your header labels are now well postionned. 
+Both of your header labels are now re-postioned. 
 
-Let's see the result on the simulator !
+Let's see the results in the Simulator !
 
 ![alt-text](assets/OpenYourProjectWithXcode/Simulator-Xcode-4D-for-iOS.png)
 
 
-Not exaclty the result we want to get...
+Hmmmm. That's not exactly the result we wanted ...
 
-* Select the First Name and the Last Name label and change the alignment from center to left from the Attributes inspector 
+* Select the First Name and Last Name labels and change the alignment from center to left in the Attributes inspector. 
 ![alt-text](assets/OpenYourProjectWithXcode/Labels-Alignment-Xcode-4D-for-iOS.png)
 
-* Then select the Profil picture and Double click on the Leading space constaint.
-* Change the Contact value from 40.67 to 80
+* Then, select the Profile picture and double click on the leading space constraint.
+* Change the Constant value from 40.67 to 80 pixels.
 
 ![alt-text](assets/OpenYourProjectWithXcode/Constraints-adjustments-Xcode-4D-for-iOS.png)
 
 
-As you can see all constraints are working well and the label are adjusting well without breaking other constraints
+Much better! As you can see, all constraints are working well and the labels aren't breaking other constraints.
 
 
 

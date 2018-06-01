@@ -8,13 +8,13 @@ When you're satified that your application is ready, you can launch the project 
 
 Let’s look at the Build tab options in detail:
 
-* Build and Run: Launches the application in the Simulator.
+* <b>Build and Run:</b> Launches the application in the Simulator.
 
-* iPhone X: The default Simulator. Clicking here will reveal a dropdown list with all available simulators.
+* <b>iPhone X:</b> The default Simulator. Clicking here will reveal a dropdown list with all available simulators.
 
-* Project: Reveals a dropdown list where you can open the project or product folder, or open the product with Xcode.
+* <b>Project:</b> Reveals a dropdown list where you can open the project or product folder, or open the product with Xcode.
 
-* Install: Installs the application on a connected device.
+* <b>Install:</b> Installs the application on a connected device.
  
 
 Select a Simulator to build your application on, and press the Build and Run button.
