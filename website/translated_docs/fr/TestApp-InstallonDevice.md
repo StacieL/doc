@@ -1,56 +1,56 @@
 ---
 id: InstallonDevice
-title: Install and run your App on your device
-sidebar_label: Install and run your App on your device
+title: Installing and running your App
+sidebar_label: Installing and running your App
 ---
 
 
 <div class = "objectives">
 <b>OBJECTIVES</b>
 
-* install my App on a connected device
+* Install my application on a connected device
 </div>
 
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* Apple Developer Program for App Store deployment ($99) or Apple Enterprise Developer Program for in-house deployment ($299) * Last \[Xcode\](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac. * \[Apple configurator 2\](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac. </div> 
+* Apple Developer Program for App Store deployment or Apple Enterprise Developer Program for in-house deployment * Latest version of \[Xcode\](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac * \[Apple configurator 2\](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac </div> 
 
-If you want to publish your app, the first step is to create an Apple Developer Program.
+If you want to publish your application in the App Store, you'll need to create an Apple Developer Program.
 
-Depending on your objectives and preferences you can decide to create an Apple Developer Program for individual or organization for an App Store Deployment or an Apple Enterprise Developer Program if you choose to deploy your app in-house.
+Depending on your objectives and preferences, you can choose to create an: * Apple Developer Program for individual or organization for an App Store Deployment, or * Apple Enterprise Developer Program (if you deploy your app in-house).
 
-Let us start from the beginning
+Let's go through the process...
 
-## STEP 1. ACCOUNT CREATION – ONLY THE FIRST TIME
+## STEP 1. ACCOUNT CREATION
 
-* Apple ID : to create your apple ID, if you don’t have one yet click [here](https://itunes.apple.com/us/app/xcode/id497799835)
+* Apple ID: Create your apple ID. If you don’t already have one, click [here](https://itunes.apple.com/us/app/xcode/id497799835).
 
-* Developer Account : Choose an Apple developer program for organisations or for individuals for App Store deployment or Apple developer Enterprise program for in-house deployment.
+* Developer Account: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or Apple developer Enterprise program (for in-house deployment).
 
-* Install Xcode : go to the App Store, download and install [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) and open it to install all component
-* Install Apple Configurator 2 : go to App Store, download and install [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) 
+* [Xcode](https://itunes.apple.com/us/app/xcode/id497799835): If you don't already have the latest version installed, you can get it in the App Store. Download, install, and open it to install all components.
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344): If you don't already have the latest version installed, you can get it in the App Store. Download and install it. 
 
-## STEP 2. XCODE CONFIGURATION – ONLY THE FIRST TIME
+## STEP 2. XCODE CONFIGURATION
 
-* GO to Xcode > Preferences > Accounts and add your developer account ![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png)
+* Developer Account: In Xcode > Preferences > Accounts, add your developer account. ![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png)
 
-* Team ID : Go to your developer account > Membership and get your Team ID ![alt-text](assets/TestYourApp/Team-ID-4D-for-iOS.png)
+* Team ID: Go to Developer Account > Membership and get your Team ID. ![alt-text](assets/TestYourApp/Team-ID-4D-for-iOS.png)
 
-* 4D for iOS : launch 4D for iOS under the General Section and fill your Team ID ![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png)
+* 4D for iOS: Launch 4D for iOS in Sections > General and enter your Team ID. ![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png)
 
-## STEP 3. XCODE CONFIGURATION – ONLY THE FIRST TIME
+## STEP 3. BUILD
 
-* When your app is ready, go to BUILD tab
-* Connect your device to your computer using a USB cable
-* From the BUILD tab click on Install Button
+* When your application is ready, open the BUILD tab.
+* Connect your device to your computer with a USB cable.
+* From the BUILD tab, click on Install.
 
 ![alt-text](assets/TestYourApp/Install-button-build-tab-4D-for-iOS.png)
 
-* Wait for the app to be installed on your device
+* The application is being installed on your device!
 
 <div style="text-align: center">
   
 <a class="button"
-href="../assets/AppInstallOnDevice.html">FIND ALL STEPS RIGHT HERE</a>
+href="../assets/AppInstallOnDevice.html">FIND ALL STEPS HERE</a>
 </div>
