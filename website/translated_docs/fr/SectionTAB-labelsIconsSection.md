@@ -7,7 +7,7 @@ This is where you'll define short and long labels, as well as icons, for your ta
 
 ![alt-text](assets/4DforiOSOverview/Labels-icons-section-4D-for-iOS.png)
 
-* **Short and long labels:** Long and short labels are used depending on the available space in the templates (to optimize space and avoid overcrowding the tab bar).
+* **Short and long labels:** Long and short labels are used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).
 * **Icons:** 4D for iOS provides a large library of embedded icons to meet your needs. These include icons for commerce, finance, education, government, health, industry, real estate, services, etc.
 
 <div class = "tips">
