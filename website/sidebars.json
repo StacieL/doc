@@ -9,7 +9,7 @@
 
   },
   "TestiOSApp": {
-    "Test your iOS app" : ["RuninSimulator","InstallonDevice"]
+    "Test your iOS app" : ["Freedeveloperaccount","RuninSimulator","InstallonDevice"]
   },
 
    "Deploy": {

@@ -82,7 +82,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('projectEditorOverview.html', language)}>4D for iOS Overview</Button>
             <Button href={docUrl('veryFirstApp.html', language)}>Create</Button>
-            <Button href={docUrl('RuninSimulator.html', language)}>Test</Button>
+            <Button href={docUrl('Freedeveloperaccount.html', language)}>Test</Button>
             <Button href={docUrl('Deployment.html', language)}>Deploy</Button>
 
           </PromoSection>
@@ -205,7 +205,7 @@ const TestYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/RuninSimulator.html', props.language)}>
+    <a className="button" href={docUrl('en/Freedeveloperaccount.html', props.language)}>
           TEST YOUR APP
         </a>
 
@@ -219,7 +219,7 @@ const Deploy = props => (
 
     {[
       {
-        content: 'Distribute your application in-house or on the App Store.<br>Multiple tutorials are available to guide you through the App Store deployment process.',
+        content: 'Distribute your application in-house or on the App Store.<br>Multiple tutorials are available to guide you through the process.',
         image: imgUrl('deploy-Enterprise.png'),
         imageAlign: 'left',
         title: 'Deploy your App',

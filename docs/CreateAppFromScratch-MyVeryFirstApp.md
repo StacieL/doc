@@ -8,20 +8,20 @@ sidebar_label: My First App
 <b>PREREQUISITES</b>
 
 * 4D Mobile service must be activated to expose your data
-* Well-configured HTTP Port and HTTPS Port
-* For greater comfort, the Launch Web Server at Startup option can also be activated
+* Well-configured HTTP Port and HTTPS ports
+* For greater comfort, the <i>Launch Web Server at Startup</i> option can also be activated
 * Latest Xcode version installed on your Mac
 </div>
 
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
-Scenario: You're a commercial business manager and you want to consult your contact information on the go.
+<i>Scenario: You're a commercial business manager and you want to consult your contact information on the go.</i>
 
-We're going to create an iPhone application called Contacts. You'll be able to search for contact names from a list and then view the details of each contact.
+We're going to create an iPhone application called "Contacts". You'll be able to search for contact names from a list and then view the details of each contact.
 
 ## STEP 1. GETTING STARTED
-Download the Starter Project, which contains a database file and project icon, but no mobile project yet!
+Download our Starter Project, which contains a database file and project icon, but no mobile project yet!
 
 <div style="text-align: center; margin-top: 20px">
 <a class="button"
@@ -35,28 +35,28 @@ href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 
 Let's start with a very simple structure using a single Contacts table. From 4D, go to <b>New > Mobile project</b>.
 
-Give your project a name and click <b>Create</b>.
+Give your project a name and click <i>Create</i>.
 
 ![alt-text](assets/CreateYourAppFromScratch/Project-creation-4D-for-iOS.png)
 
 
 ## STEP 3. OPENING THE PROJECT EDITOR
 
-Welcome to 4D for iOS! The Welcome screen displays all the major steps of this magnificent tool 🙂
+Welcome to 4D for iOS! The Welcome screen displays all the major steps of this magnificent tool. 🙂
 
 ![alt-text](assets/CreateYourAppFromScratch/Welcome-Screen-4D-for-iOS.png)
 
-Click <b>Continue</b>.
+Click <i>Continue</i>.
 
 
 ## STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION
 
 * <b>Organization:</b> Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
 * <b>Product:</b> Enter your application's name. Let’s call this one "Contacts".
-* <b>The ID</b> (Bundle ID) is automatically generated as a composition of your organization identifier and product name
-* Leave the <b>version</b> as 1.0 and define your application's copyright. It's highly recommended to use the formats provided by 4D for iOS.
-* <b>Icons:</b> Drag and drop an icon into the icon area
-* <b>Developer:</b> The name is automatically filled from your user account. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your app on the simulator only.
+* <b>ID:</b> (Bundle ID) is automatically generated as a composition of your organization identifier and product name.
+* <b>Version:</b> Leave the version as 1.0 and define your application's copyright. It's highly recommended to use the formats provided by 4D for iOS.
+* <b>Icons:</b> Drag and drop an icon into the icon area.
+* <b>Developer:</b> This is automatically filled from your user account name. Copy/paste your developer team reference (from your developer account) into the Team field. You can also leave it empty to build your application on the Simulator only.
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-general-section-4D-for-iOS.png)
 
@@ -70,7 +70,7 @@ For our example, select <b>ID, First Name, Last Name, Job, Company, Phone, Notes
 <div class = "caution">
 <b>CAUTION</b>
 
-* It is important to publish your primary key to identify each records of your database
+* It's important to publish your primary key in order to identify each record of your database.
 </div>
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-structure-section-4D-for-iOS.png)
@@ -107,7 +107,7 @@ You can also opt to leave the icon field empty. 4D for iOS will generate a defau
  
 At this point, the bottom of the configuration window has changed from Template selection to Content definition.
  
-* Drag and drop the fields you want displayed onto the template, i.e., Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Drag and drop the fields you want displayed onto the template, <i>i.e.</i>, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
 
 ![alt-text](assets/CreateYourAppFromScratch/ListformContent-form-section-4D-for-iOS.png)
 
@@ -117,7 +117,7 @@ Let’s move on to defining the Detail form.
 ![alt-text](assets/CreateYourAppFromScratch/DetailformTemplate-form-section-4D-for-iOS.png)
 
 
-* Drag and drop the content onto the detail view template, i.e., First Name, Last Name, and Photo.
+* Drag and drop the content onto the detail view template, <i>i.e.</i>, First Name, Last Name, and Photo.
 
 ![alt-text](assets/CreateYourAppFromScratch/DetailformContent-form-section-4D-for-iOS.png)
 

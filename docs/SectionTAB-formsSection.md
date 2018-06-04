@@ -4,15 +4,15 @@ title: Time to define Forms
 sidebar_label: Forms
 ---
 
-In this section, you select a list and detail form template for each Table.
+In this section, you select both a list and a detail form template for each Table.
 
 4D for iOS provides various templates with custom transition effects to build fresh and modern iOS applications.
 
-Here's the breakdown of this screen, from the top to bottom:
+Here's the breakdown of this screen, from top to bottom:
 
-* <b>List and Detail Forms:</b> Allows switching between list and detail form definitions for each table
-* <b>Published tables:</b> Displays all tables published in the Structure section 
-* <b>Available Forms:</b> Allows switching between template selection and content definition
+* <b>List and Detail Forms:</b> Allows switching between list and detail form definitions for each table.
+* <b>Published tables:</b> Displays all tables published in the Structure section. 
+* <b>Available Forms:</b> Allows switching between template selection and content definition.
 
 ![alt-text](assets/4DforiOSOverview/Forms-section-templates-selection-4D-for-iOS.png)
 
@@ -22,7 +22,7 @@ Simple, empty templates are used by default for an application's list and detail
 
 Select a template for your first table.
 Once done, the content definition screen appears.
-You can then drag and drop the fields from the Field List directly onto the Model displayed on the right.
+You can then drag and drop the fields from the Fields list directly onto the Model displayed on the right.
 Most of the list forms include optional Search and Section fields.
 
  
@@ -38,7 +38,7 @@ As with the List Form definition, select a template and drag and drop your field
 <div class = "tips">
 <b>TIP:</b>
 
-Want to change your list or detail form template? 
+Want to change the template for your list or detail form? 
 
-Field types are automatically recognized and saved depending on the template and field types selected.
+Field types are automatically recognized, saved, and placed in the appropriate areas for you (depending on the template and field types) when you change templates.
 </div>
