@@ -3,7 +3,7 @@ id: testApp
 title: Test Your Application
 sidebar_label: Test Your App
 ---
-When you're satified that your application is ready, you can launch the project in the Simulator and test your project.
+When you're satisfied that your application is ready, you can launch it in the Simulator to test it.
 
 Let’s look at the Build tab options in detail:
 
@@ -15,7 +15,7 @@ Let’s look at the Build tab options in detail:
 
 * **Install:** Installs the application on a connected device.
 
-Select a Simulator to build your application on, and press the Build and Run button.
+Select a Simulator to build and test your application on, and press the **Build and Run** button.
 
 ![alt-text](assets/4DforiOSOverview/Build-Tab-4D-for-iOS.png)
 
