@@ -13,7 +13,10 @@
   },
 
    "Deploy": {
-    "Deploy your app" : ["Deployment","RegisterAppleDeveloperEnterpriseProgram","RegisterOrganization","RegisterIndividual"]
+    "Deploy your app" : ["Deployment"],
+    "In-House Deployment" : ["RegisterAppleDeveloperEnterpriseProgram"],
+    "App Store Deployment": ["RegisterOrganization","RegisterIndividual"]
+
   },
      "ModifyYourProjectWithXcode": {
     "Modify your project with Xcode" : ["openXcodeProject","xcodePresentation","4DforiOSProjectPresentation","modifyXcodeProject"]

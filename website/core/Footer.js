@@ -62,6 +62,8 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
   
+            <a href="http://www.4d.com/legal.html">Legal</a>
+
             <a href="https://github.com/DavAz4D/doc">GitHub</a>
             <a
               className="github-button"
