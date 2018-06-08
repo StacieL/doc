@@ -9,7 +9,7 @@ sidebar_label: My First App
 
 * 4D Mobile service must be activated to expose your data
 * Well-configured HTTP Port and HTTPS ports
-* For greater comfort, the <i>Launch Web Server at Startup</i> option can also be activated
+* For greater comfort, the <b>Launch Web Server at Startup</b> option can also be activated
 * Latest Xcode version installed on your Mac
 </div>
 

@@ -1,6 +1,7 @@
 {
   "discoverProjectEditor": {
-    "Discover the Project Editor": ["projectEditorOverview"],
+    "4D for iOS": ["whatis4DforiOS"],
+    "Getting started": ["projectEditorOverview"],
     "Sections": ["generalSection","structureSection","labelsIconsSection","mainMenuSection","formsSection","publishingSection"],
     "Build": ["testApp"]
   },

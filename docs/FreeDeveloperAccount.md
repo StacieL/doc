@@ -34,12 +34,13 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 ## STEP 3. OPEN XCODE
 
 * Launch Xcode > preference > Accounts
-* Click the + Button to add a new account 
 * Add your Apple ID and sign in 
+
+![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png)
  
 Congratulations! You are now ready to use your free Apple ID for provisioning and deployment to iOS devices using Xcode.
 
-TO distribute an iOS app You will need to have a valid Apple Developer account.
+To distribute an iOS app you will need to have a valid Apple Developer account.
 
 Here is a chart that compares the different levels of developer membership :
 

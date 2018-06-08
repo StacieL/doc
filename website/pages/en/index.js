@@ -80,7 +80,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('projectEditorOverview.html', language)}>4D for iOS Overview</Button>
+            <Button href={docUrl('whatis4DforiOS.html', language)}>4D for iOS Overview</Button>
             <Button href={docUrl('veryFirstApp.html', language)}>Create</Button>
             <Button href={docUrl('Freedeveloperaccount.html', language)}>Test</Button>
             <Button href={docUrl('Deployment.html', language)}>Deploy</Button>
@@ -146,7 +146,7 @@ const FeatureCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/projectEditorOverview.html', props.language)}>
+    <a className="button" href={docUrl('en/whatis4DforiOS.html', props.language)}>
           GET STARTED
         </a>
 

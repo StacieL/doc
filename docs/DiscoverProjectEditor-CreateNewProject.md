@@ -1,7 +1,7 @@
 ---
 id: projectEditorOverview
-title: 4D for IOS: Project Editor Overview
-sidebar_label: Project Editor Overview
+title: 4D for IOS: Create a new Project
+sidebar_label: Create a new Project
 ---
 
 
