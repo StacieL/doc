@@ -6,7 +6,7 @@ sidebar_label: My First App
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* 4D Mobile service must be activated to expose your data * Well-configured HTTP Port and HTTPS ports * For greater comfort, the *Launch Web Server at Startup* option can also be activated * Latest Xcode version installed on your Mac </div> 
+* 4D Mobile service must be activated to expose your data * Well-configured HTTP Port and HTTPS ports * For greater comfort, the **Launch Web Server at Startup** option can also be activated * Latest Xcode version installed on your Mac </div> 
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
