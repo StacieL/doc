@@ -18,7 +18,7 @@ sidebar_label: Installing and running your App
 
 If you want to publish your application in the App Store, you'll need to create an Apple Developer Program.
 
-Depending on your objectives and preferences, you can choose to create an: * Apple Developer Program for individual or organization for an App Store Deployment, or * Apple Enterprise Developer Program (if you deploy your app in-house).
+Depending on your objectives and preferences, you can choose to create a: * [Free Apple Developer Program](Freedeveloperaccount.html) only for testing * [Apple Developer Program for organization](RegisterOrganization.html) or [individual](RegisterIndividual.html) for an App Store Deployment * [Apple Enterprise Developer Program](RegisterAppleDeveloperEnterpriseProgram.html) (if you deploy your app in-house).
 
 Let's go through the process...
 
