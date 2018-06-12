@@ -2,10 +2,10 @@
 id: faq
 title: FAQ
 ---
-[How do I install my app on my device?](InstallonDevice.html)
+[What are the prerequisites and requirements to use 4D for iOS?](prerequisites.html)
 
 [How do I enroll in the Apple Developer Program?](Deployment.html)
 
 [How to create a free Apple Developer account for testing?](Freedeveloperaccount.html)
 
-[What are the prerequisites and requirements to use 4D for iOS?](prerequisites.html)
+[How do I install my app on my device?](InstallonDevice.html)
