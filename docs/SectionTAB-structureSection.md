@@ -15,6 +15,11 @@ Here, you can define a subset of your physical structure to replicate for mobile
 * tables will be automatically added to the tabs of your application.
 * fields will be available later when it's time to define your list and detail forms.
  
+ <div class = "caution">
+<b>CAUTION</b>
+
+* We recommend to publish your primary key in order to identify each record of your database.
+</div>
 
 To help you define your application's structure, multiple filters and a search engine are available to make it easy to select your tables and field.
 

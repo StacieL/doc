@@ -1,5 +1,5 @@
 ---
-id: projectEditorOverview
+id: createNewProject
 title: 4D for IOS: Create a new Project
 sidebar_label: Create a new Project
 ---
@@ -17,7 +17,7 @@ sidebar_label: Create a new Project
 * 4D Mobile must be activated
 * Well-configured HTTP and HTTPS ports
 * For greater comfort, the <b>Launch Web Server at Startup</b> option can also be activated
-* Latest Xcode version installed on your Mac
+* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
 </div>
 
 

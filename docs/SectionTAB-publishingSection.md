@@ -13,9 +13,16 @@ Publishing is where you define or create the:
 
 
 ## WEB SERVER SETTINGS
-Communication between your application and the web server must be encrypted.
 
-* Activate and define your HTTPS port, if you haven't already done so, by clicking on the <i>Edit</i> button for the "Web Server Settings".
+ <div class = "tips">
+<b>FYI:</b>
+
+* The simulator works in localhost.
+* If the production url is defined, the http and the https are both accepted. Else the IP Address is used.
+</div>
+
+
+* Activate and define your HTTPS AND/OR HTTP port, if you haven't already done so, by clicking on the <b>Edit</b> button for the "Web Server Settings".
 
 * Activating the HTTPS port requires certificate installation to work properly. You can also create certificates with 4D, but strictly for test purposes.
 
@@ -28,7 +35,7 @@ If either the HTTPS port is not properly defined or certificates are missing, th
 
 ## AUTHENTICATION MODE
 
-<b>Authorized User:</b> Check the <i>Requires an email to connect</i> checkbox to display a login form when the application starts
+<b>Authorized User:</b> Check the <b>Requires an email to connect</b> checkbox to display a login form when the application starts
 
 <b>Guest:</b> Leave the <i>Requires an email to connect</i> checkbox unchecked. No login form will appear when the application start.
 

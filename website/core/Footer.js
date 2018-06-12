@@ -56,6 +56,13 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Blog
             </a>
+
+             <a
+              href="http://forums.4d.com"
+              target="_blank"
+              rel="noreferrer noopener">
+              Forum
+            </a>
            
           </div>
 

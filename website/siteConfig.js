@@ -41,6 +41,8 @@ const siteConfig = {
     {doc: 'docindex', label: 'Docs'},
     {doc: 'faq', label: 'FAQ'},
 
+
+
    // {doc: 'docindex', label: 'API'},
    // {page: 'help', label: 'Help'},
     //{blog: 'true', label: 'Blog'},
