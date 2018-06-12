@@ -4,14 +4,20 @@ title: Creating your first application
 sidebar_label: My First App
 ---
 
+<div class = "objectives">
+<b>OBJECTIVES</b>
+
+* Create your very first App with 4D for iOS
+</div>
+
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* 4D Mobile service must be activated to expose your data
-* 4D Server and/or 4D Developer
-* Well-configured HTTP Port and HTTPS ports
-* For greater comfort, the <b>Launch Web Server at Startup</b> option can also be activated
-* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
+* 4D Server / 4D Developer 17 R2.
+* Mac OS X version 10.13 (or later).
+* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac.
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac (optional). 
+Install this software if you want to automate the app installation on your physical device.
 </div>
 
 
