@@ -7,11 +7,12 @@ Publishing is where you define or create the: * Web Server Settings * Authentica
 
 ![alt-text](assets/4DforiOSOverview/Publishing-section-4D-for-iOS.png)
 
-## WEB SERVER SETTINGS
+## WEB SERVER SETTINGS<div class = "tips">
+<b>FYI:</b>
 
-Communication between your application and the web server must be encrypted.
+* The simulator works in localhost. * If the production url is defined, the http and the https are both accepted. Else the IP Address is used. </div> 
 
-* Activate and define your HTTPS port, if you haven't already done so, by clicking on the *Edit* button for the "Web Server Settings".
+* Activate and define your HTTPS AND/OR HTTP port, if you haven't already done so, by clicking on the **Edit** button for the "Web Server Settings".
 
 * Activating the HTTPS port requires certificate installation to work properly. You can also create certificates with 4D, but strictly for test purposes.
 
@@ -23,7 +24,7 @@ If either the HTTPS port is not properly defined or certificates are missing, th
 
 ## AUTHENTICATION MODE
 
-<b>Authorized User:</b> Check the *Requires an email to connect* checkbox to display a login form when the application starts
+<b>Authorized User:</b> Check the <b>Requires an email to connect</b> checkbox to display a login form when the application starts
 
 <b>Guest:</b> Leave the *Requires an email to connect* checkbox unchecked. No login form will appear when the application start.
 
