@@ -8,9 +8,10 @@
 <b>PREREQUISITES</b>
 <ul>
 <li>4D Mobile service must be activated to expose your data</li>
+<li>4D Server and/or 4D Developer</li>
 <li>Well-configured HTTP Port and HTTPS ports</li>
 <li>For greater comfort, the <b>Launch Web Server at Startup</b> option can also be activated</li>
-<li>Latest Xcode version installed on your Mac</li>
+<li>Latest <a href="https://itunes.apple.com/us/app/xcode/id497799835">Xcode</a> version installed on your Mac</li>
 </ul>
 </div>
 <p>This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.</p>
@@ -24,12 +25,12 @@ href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 </div>
 <h2><a class="anchor" aria-hidden="true" id="step-2-creating-the-project"></a><a href="#step-2-creating-the-project" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 2. CREATING THE PROJECT</h2>
 <p>Let's start with a very simple structure using a single Contacts table. From 4D, go to <b>New &gt; Mobile project</b>.</p>
-<p>Give your project a name and click <i>Create</i>.</p>
+<p>Give your project a name and click <b>Create</b>.</p>
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/Project-creation-4D-for-iOS.png" alt="alt-text"></p>
 <h2><a class="anchor" aria-hidden="true" id="step-3-opening-the-project-editor"></a><a href="#step-3-opening-the-project-editor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 3. OPENING THE PROJECT EDITOR</h2>
 <p>Welcome to 4D for iOS! The Welcome screen displays all the major steps of this magnificent tool. 🙂</p>
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/Welcome-Screen-4D-for-iOS.png" alt="alt-text"></p>
-<p>Click <i>Continue</i>.</p>
+<p>Click <b>Continue</b>.</p>
 <h2><a class="anchor" aria-hidden="true" id="step-4-configure-your-application-s-main-information"></a><a href="#step-4-configure-your-application-s-main-information" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION</h2>
 <ul>
 <li><b>Organization:</b> Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).</li>
@@ -46,7 +47,7 @@ href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 <div class = "caution">
 <b>CAUTION</b>
 <ul>
-<li>It's important to publish your primary key in order to identify each record of your database.</li>
+<li>We recommend to publish your primary key in order to identify each record of your database.</li>
 </ul>
 </div>
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/Contact-app-structure-section-4D-for-iOS.png" alt="alt-text"></p>
@@ -81,7 +82,7 @@ You can also opt to leave the icon field empty. 4D for iOS will generate a defau
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/ListformTemplate-form-section-4D-for-iOS.png" alt="alt-text"></p>
 <p>At this point, the bottom of the configuration window has changed from Template selection to Content definition.</p>
 <ul>
-<li>Drag and drop the fields you want displayed onto the template, <i>i.e.</i>, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.</li>
+<li>Drag and drop the fields you want displayed onto the template, <b>i.e.</b>, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.</li>
 </ul>
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/ListformContent-form-section-4D-for-iOS.png" alt="alt-text"></p>
 <p>Let’s move on to defining the Detail form.</p>
@@ -90,10 +91,10 @@ You can also opt to leave the icon field empty. 4D for iOS will generate a defau
 </ul>
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/DetailformTemplate-form-section-4D-for-iOS.png" alt="alt-text"></p>
 <ul>
-<li>Drag and drop the content onto the detail view template, <i>i.e.</i>, First Name, Last Name, and Photo.</li>
+<li>Drag and drop the content onto the detail view template, <b>i.e.</b>, First Name, Last Name, and Photo.</li>
 </ul>
 <p><img src="/doc/docs/assets/CreateYourAppFromScratch/DetailformContent-form-section-4D-for-iOS.png" alt="alt-text"></p>
-<h2><a class="anchor" aria-hidden="true" id="step-9-build-the-application"></a><a href="#step-9-build-the-application" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 9. BUILD THE APPlICATION</h2>
+<h2><a class="anchor" aria-hidden="true" id="step-9-build-the-application"></a><a href="#step-9-build-the-application" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>STEP 9. BUILD THE APPLICATION</h2>
 <p>Now the fun part! Test your application on the Simulator to see the final result!</p>
 <ul>
 <li>Click the <b>Build tab</b>.</li>
@@ -109,7 +110,7 @@ Click on the Final Project button to download the final Contacts application.</p
 <a class="button"
 href="../assets/contactDemoApp/ContactFinal.zip">FINAL PROJECT</a>
 </div>
-</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-getting-started">STEP 1. GETTING STARTED</a></li><li><a href="#step-2-creating-the-project">STEP 2. CREATING THE PROJECT</a></li><li><a href="#step-3-opening-the-project-editor">STEP 3. OPENING THE PROJECT EDITOR</a></li><li><a href="#step-4-configure-your-application-s-main-information">STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION</a></li><li><a href="#step-5-sections-structure">STEP 5. SECTIONS - STRUCTURE</a></li><li><a href="#step-6-sections-icons-labels">STEP 6. SECTIONS - ICONS &amp; LABELS</a></li><li><a href="#step-7-sections-main-menu">STEP 7. SECTIONS - MAIN MENU</a></li><li><a href="#step-8-sections-forms">STEP 8. SECTIONS - FORMS</a></li><li><a href="#step-9-build-the-application">STEP 9. BUILD THE APPlICATION</a></li><li><a href="#step-10-where-to-go-from-here">STEP 10. WHERE TO GO FROM HERE?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/doc/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/pg/4Dsoftware/posts/" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4dtweets" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a></div><div><h5>More</h5><a href="http://www.4d.com/legal.html">Legal</a><a href="https://github.com/DavAz4D/doc">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2018 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#step-1-getting-started">STEP 1. GETTING STARTED</a></li><li><a href="#step-2-creating-the-project">STEP 2. CREATING THE PROJECT</a></li><li><a href="#step-3-opening-the-project-editor">STEP 3. OPENING THE PROJECT EDITOR</a></li><li><a href="#step-4-configure-your-application-s-main-information">STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION</a></li><li><a href="#step-5-sections-structure">STEP 5. SECTIONS - STRUCTURE</a></li><li><a href="#step-6-sections-icons-labels">STEP 6. SECTIONS - ICONS &amp; LABELS</a></li><li><a href="#step-7-sections-main-menu">STEP 7. SECTIONS - MAIN MENU</a></li><li><a href="#step-8-sections-forms">STEP 8. SECTIONS - FORMS</a></li><li><a href="#step-9-build-the-application">STEP 9. BUILD THE APPLICATION</a></li><li><a href="#step-10-where-to-go-from-here">STEP 10. WHERE TO GO FROM HERE?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/doc/" class="nav-home"></a><div><h5>Community</h5><a href="https://www.facebook.com/pg/4Dsoftware/posts/" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/4dtweets" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://blog.4d.com/tag/4d-for-ios/" target="_blank" rel="noreferrer noopener">Blog</a><a href="http://forums.4d.com" target="_blank" rel="noreferrer noopener">Forum</a></div><div><h5>More</h5><a href="http://www.4d.com/legal.html">Legal</a><a href="https://github.com/DavAz4D/doc">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2018 4D SAS</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
               var search = docsearch({
                 
                 apiKey: 'a00a6f38bb6849ff2b47dad3fcfceaa0',
