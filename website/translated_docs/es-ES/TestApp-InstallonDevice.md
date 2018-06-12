@@ -14,7 +14,7 @@ sidebar_label: Installing and running your App
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* Apple Developer Program for App Store deployment or Apple Enterprise Developer Program for in-house deployment * Latest version of \[Xcode\](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac * \[Apple configurator 2\](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac </div> 
+* Apple Developer Program * Latest version of \[Xcode\](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac * \[Apple configurator 2\](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac </div> 
 
 If you want to publish your application in the App Store, you'll need to create an Apple Developer Program.
 
