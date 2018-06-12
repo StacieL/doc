@@ -6,7 +6,7 @@ sidebar_label: My First App
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* 4D Mobile service must be activated to expose your data * Well-configured HTTP Port and HTTPS ports * For greater comfort, the **Launch Web Server at Startup** option can also be activated * Latest Xcode version installed on your Mac </div> 
+* 4D Mobile service must be activated to expose your data * 4D Server and/or 4D Developer * Well-configured HTTP Port and HTTPS ports * For greater comfort, the **Launch Web Server at Startup** option can also be activated * Latest \[Xcode\](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac </div> 
 
 This tutorial will let you dive right into 4D for iOS development. It will allow you to quickly and easily create your first application.
 
@@ -28,7 +28,7 @@ href="../assets/contactDemoApp/ContactStarter.zip">STARTER PROJECT</a>
 
 Let's start with a very simple structure using a single Contacts table. From 4D, go to **New > Mobile project**.
 
-Give your project a name and click *Create*.
+Give your project a name and click **Create**.
 
 ![alt-text](assets/CreateYourAppFromScratch/Project-creation-4D-for-iOS.png)
 
@@ -38,7 +38,7 @@ Welcome to 4D for iOS! The Welcome screen displays all the major steps of this m
 
 ![alt-text](assets/CreateYourAppFromScratch/Welcome-Screen-4D-for-iOS.png)
 
-Click *Continue*.
+Click **Continue**.
 
 ## STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION
 
@@ -60,7 +60,7 @@ For our example, select **ID, First Name, Last Name, Job, Company, Phone, Notes 
 <div class = "caution">
 <b>CAUTION</b>
 
-* It's important to publish your primary key in order to identify each record of your database.
+* We recommend to publish your primary key in order to identify each record of your database.
 </div>
 
 ![alt-text](assets/CreateYourAppFromScratch/Contact-app-structure-section-4D-for-iOS.png)
@@ -90,7 +90,7 @@ For our example, select **ID, First Name, Last Name, Job, Company, Phone, Notes 
 
 At this point, the bottom of the configuration window has changed from Template selection to Content definition.
 
-* Drag and drop the fields you want displayed onto the template, *i.e.*, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
+* Drag and drop the fields you want displayed onto the template, **i.e.**, Last Name into the search and Title fields. The Search and Section fields are optional, leave the Section field empty for the moment.
 
 ![alt-text](assets/CreateYourAppFromScratch/ListformContent-form-section-4D-for-iOS.png)
 
@@ -98,11 +98,11 @@ Let’s move on to defining the Detail form. * Select a template that is best su
 
 ![alt-text](assets/CreateYourAppFromScratch/DetailformTemplate-form-section-4D-for-iOS.png)
 
-* Drag and drop the content onto the detail view template, *i.e.*, First Name, Last Name, and Photo.
+* Drag and drop the content onto the detail view template, **i.e.**, First Name, Last Name, and Photo.
 
 ![alt-text](assets/CreateYourAppFromScratch/DetailformContent-form-section-4D-for-iOS.png)
 
-## STEP 9. BUILD THE APPlICATION
+## STEP 9. BUILD THE APPLICATION
 
 Now the fun part! Test your application on the Simulator to see the final result!
 
