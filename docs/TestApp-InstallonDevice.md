@@ -13,9 +13,8 @@ sidebar_label: Installing and running your App
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* Apple Developer Program
 * Latest version of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac
+* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate the app installation (optional).
 
 </div>
 
@@ -30,16 +29,50 @@ Let's go through the process...
 
 ## STEP 1. ACCOUNT CREATION
 
-* Apple ID: Create your apple ID. If you don’t already have one, click [here](https://itunes.apple.com/us/app/xcode/id497799835).  
+* <b>Apple ID</b>: Create your apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).  
 
-* Developer Account: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or Apple developer Enterprise program (for in-house deployment).
-* [Xcode](https://itunes.apple.com/us/app/xcode/id497799835): If you don't already have the latest version installed, you can get it in the App Store. Download, install, and open it to install all components.
-* [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344): If you don't already have the latest version installed, you can get it in the App Store. Download and install it.  
+* <b>Developer Account</b>: Choose an Apple Developer Program (for organizations or individuals) for App Store deployment or Apple developer Enterprise program (for in-house deployment).
+* <b>[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)</b>: If you don't already have the latest version installed, you can get it in the App Store. Download, install, and open it to install all components.
+* <b>[Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344)</b>: If you don't already have the latest version installed, you can get it in the App Store. Download and install it.  
 
 ## STEP 2. XCODE CONFIGURATION 
 
 * Developer Account: In Xcode > Preferences > Accounts, add your developer account.
 ![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png) 
+
+## STEP 3. GET YOUR TEAM ID 
+
+* If your are using a [Free Apple Developer Program](Freedeveloperaccount.html) go to step 4
+* If your are using a [Apple Developer Program](RegisterOrganization.html) or [Apple Enterprise Developer Program](RegisterAppleDeveloperEnterpriseProgram.html) go to step 5
+
+## STEP 4. TEAM ID FOR FREE ACCOUNT
+
+### Let Xcode generates your certificate and provisioning profile
+
+* Open the current project you are working on from the BUILD tab.
+
+![alt-text](assets/TestYourApp/Open-your-project-Xcode-4D-for-iOS.png) 
+
+* Verify that the "Automatically manage signing" option is checked and select the account you added [here](Freedeveloperaccount.html) from the Team popup.
+
+![alt-text](assets/TestYourApp/account-Selection-Free-Account.png) 
+
+* Connect your Device to your computer and select it from the top menu in Xcode.
+
+![alt-text](assets/TestYourApp/select-device-Free-Account.png) 
+
+* Then Xcode automatically generates Provisioning Profile and Certificate you need to Build your app.
+
+### Select your TEAM ID
+
+* Reopen 4D for iOS in Sections > General and select your TEAM ID has been added in the Team ID popup.
+
+![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png) 
+
+* Go to STEP 6 to run your project in your device from the Project Editor.
+
+
+## STEP 5. TEAM ID FOR PAID SUBSCRIPTION ACCOUNT
 
 * Team ID: Go to Developer Account > Membership and get your Team ID.
 ![alt-text](assets/TestYourApp/Team-ID-4D-for-iOS.png) 
@@ -47,7 +80,10 @@ Let's go through the process...
 * 4D for iOS: Launch 4D for iOS in Sections > General and enter your Team ID.
 ![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png) 
 
-## STEP 3. BUILD
+* Go to STEP 6 to run your project in your device
+
+
+## STEP 6. BUILD
 
 * When your application is ready, open the BUILD tab.
 * Connect your device to your computer with a USB cable.
@@ -57,9 +93,4 @@ Let's go through the process...
 
 * The application is being installed on your device!
 
-
-<div style="text-align: center">
-<a class="button"
-href="../assets/AppInstallOnDevice.html">FIND ALL STEPS HERE</a>
-</div>
 
