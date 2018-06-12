@@ -33,7 +33,7 @@ Let's go through the process...
 
 ## STEP 2. XCODE CONFIGURATION
 
-* Developer Account: In Xcode > Preferences > Accounts, add your developer account. ![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png) 
+* **Developer Account**: In Xcode > Preferences > Accounts, add your developer account. ![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png) 
 
 ## STEP 3. GET YOUR TEAM ID
 
