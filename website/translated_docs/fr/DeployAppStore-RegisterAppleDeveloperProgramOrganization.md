@@ -1,5 +1,5 @@
 ---
-id: RegisterOrganization
+id: register-apple-developer-program-organization
 title: Apple Developer Program as an Organization
 sidebar_label: Apple Developer Program as an Organization
 ---
