@@ -1,7 +1,7 @@
 ---
-id: InstallonDevice
-title: Installing and running your App 
-sidebar_label: Installing and running your App
+id: install-device
+title: Installing your App on an iOS device
+sidebar_label: Installing your App on an iOS device
 ---
 
 <div class = "objectives">

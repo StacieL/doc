@@ -1,5 +1,5 @@
 ---
-id: generalSection
+id: general
 title: General
 sidebar_label: General
 ---

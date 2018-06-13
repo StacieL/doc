@@ -1,5 +1,5 @@
 ---
-id: labelsIconsSection
+id: labels-and-icons
 title: Labels & Icons
 sidebar_label: Labels & Icons
 ---

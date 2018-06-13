@@ -1,5 +1,5 @@
 ---
-id: mainMenuSection
+id: main-menu
 title: Main Menu
 sidebar_label: Main Menu
 ---

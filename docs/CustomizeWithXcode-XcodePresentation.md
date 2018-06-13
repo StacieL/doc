@@ -1,5 +1,5 @@
 ---
-id: xcodePresentation
+id: xcode-overview
 title: Xcode Overview
 sidebar_label: Xcode Overview
 ---

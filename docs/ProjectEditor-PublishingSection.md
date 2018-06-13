@@ -1,5 +1,5 @@
 ---
-id: publishingSection
+id: publishing
 title: Publishing
 sidebar_label: Publishing
 ---

@@ -80,10 +80,10 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('whatis4DforiOS.html', language)}>Overview</Button>
-            <Button href={docUrl('veryFirstApp.html', language)}>Create</Button>
-            <Button href={docUrl('Freedeveloperaccount.html', language)}>Test</Button>
-            <Button href={docUrl('Deployment.html', language)}>Deploy</Button>
+            <Button href={docUrl('overview.html', language)}>Overview</Button>
+            <Button href={docUrl('create-new-project.html', language)}>Create</Button>
+            <Button href={docUrl('simulator.html', language)}>Test</Button>
+            <Button href={docUrl('deployment.html', language)}>Deploy</Button>
 
           </PromoSection>
         </div>
@@ -146,7 +146,7 @@ const FeatureCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/whatis4DforiOS.html', props.language)}>
+    <a className="button" href={docUrl('en/overview.html', props.language)}>
           OVERVIEW
         </a>
 
@@ -176,7 +176,7 @@ const BuildYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/veryFirstApp.html', props.language)}>
+    <a className="button" href={docUrl('en/create-new-project.html', props.language)}>
           CREATE YOUR APP
         </a>
 
@@ -205,7 +205,7 @@ const TestYourAppCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/Freedeveloperaccount.html', props.language)}>
+    <a className="button" href={docUrl('en/simulator.html', props.language)}>
           TEST YOUR APP
         </a>
 
@@ -233,7 +233,7 @@ const DeployCallout = props => (
 
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a className="button" href={docUrl('en/Deployment.html', props.language)}>
+    <a className="button" href={docUrl('en/deployment.html', props.language)}>
         DEPLOY YOUR APP
         </a>
 

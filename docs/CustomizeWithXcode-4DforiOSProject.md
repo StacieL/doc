@@ -1,7 +1,7 @@
 ---
-id: 4DforiOSProjectPresentation
-title: 4D for iOS application organization
-sidebar_label: 4D for iOS application organization
+id: 4d-for-ios-project-organization
+title: 4D for iOS project organization
+sidebar_label: 4D for iOS project organization
 ---
 
 

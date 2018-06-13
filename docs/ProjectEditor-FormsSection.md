@@ -1,6 +1,6 @@
 ---
-id: formsSection
-title: Time to define Forms
+id: forms
+title: Forms
 sidebar_label: Forms
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: RuninSimulator
+id: simulator
 title: Using the Simulator
 sidebar_label: Using the Simulator
 ---

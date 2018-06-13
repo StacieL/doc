@@ -1,7 +1,7 @@
 ---
-id: veryFirstApp
-title: Creating your first application 
-sidebar_label: My First App
+id: contact-app
+title: Creating a simple Contact App
+sidebar_label: Creating a simple Contact App
 ---
 
 <div class = "objectives">

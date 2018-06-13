@@ -1,5 +1,5 @@
 ---
-id: structureSection
+id: structure
 title: Structure
 sidebar_label: Structure
 ---

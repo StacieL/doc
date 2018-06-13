@@ -1,7 +1,7 @@
 ---
-id: Deployment
-title: Deployment Overview
-sidebar_label: Deployment Overview
+id: deployment
+title: Selecting your Apple Developer Program
+sidebar_label: Selecting your Apple Developer Program
 ---
 
 <div class = "objectives">

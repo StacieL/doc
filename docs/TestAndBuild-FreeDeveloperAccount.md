@@ -1,5 +1,5 @@
 ---
-id: Freedeveloperaccount
+id: free-developer-account
 title: Create a free Apple Developer account 
 sidebar_label: Create a free Apple Developer account 
 ---

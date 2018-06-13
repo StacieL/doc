@@ -1,5 +1,5 @@
 ---
-id: RegisterAppleDeveloperEnterpriseProgram
+id: register-apple-developer-enterprise-program
 title: Apple Developer Enterprise Program
 sidebar_label: Apple Developer Enterprise Program
 ---

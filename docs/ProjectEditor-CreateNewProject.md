@@ -1,6 +1,6 @@
 ---
-id: createNewProject
-title: 4D for IOS: Create a new Project
+id: create-new-project
+title: Create a new Project
 sidebar_label: Create a new Project
 ---
 

@@ -1,7 +1,7 @@
 ---
-id: modifyXcodeProject
-title: Customize your 4D for iOS application
-sidebar_label: Customize your 4D for iOS application
+id: customize-your-ios-app
+title: Customize your 4D for iOS App
+sidebar_label: Customize your 4D for iOS App
 ---
 
 

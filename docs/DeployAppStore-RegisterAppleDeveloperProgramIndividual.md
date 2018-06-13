@@ -1,5 +1,5 @@
 ---
-id: RegisterIndividual
+id: register-apple-developer-program-individual
 title: Apple Developer Program as an Individual
 sidebar_label: Apple Developer Program as an Individual
 ---

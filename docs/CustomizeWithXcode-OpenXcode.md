@@ -1,5 +1,5 @@
 ---
-id: openXcodeProject
+id: open-xcode
 title: Working with Xcode
 sidebar_label: Working with Xcode
 ---
