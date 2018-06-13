@@ -20,13 +20,13 @@ sidebar_label: Apple Developer Program as an Individual
 
 Go the the [Apple ID creation page](https://appleid.apple.com/)
 
-![alt-text](assets/DeployAppStore/Apple-ID-Creation-Page-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Apple-ID-Creation-Page-4D-for-iOS.png)
 
 * Complete the form and security questions.
 * You'll receive a verification code by email.
 * Enter the verification code to validate your account creation.
 
-![alt-text](assets/DeployAppStore/Register-developer-program-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Register-developer-program-4D-for-iOS.png)
 
 * Once you have your Apple ID, you can continue to Step 3.
 
@@ -38,13 +38,13 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 
 * Click Submit.
 
-![alt-text](assets/DeployAppStore/Register-developer-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
 ## STEP 4. JOIN THE APPLE DEVELOPER PROGRAM
 
 * Click on Join the Apple Developer Program at the bottom of the page.
 
-![alt-text](assets/DeployAppStore/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
 ## STEP 5. ENROLL AS AN INDIVIDUAL
 
@@ -52,19 +52,19 @@ Go the the [Apple ID creation page](https://appleid.apple.com/)
 * Select Individuals / Sole Proprietor / Single Person Business from the Entity Type dropdown list.
 * Click Continue.
 
-![alt-text](assets/DeployAppStore/Apple-Developer-Program-Individuals-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Apple-Developer-Program-Individuals-4D-for-iOS.png)
 
 * Complete the form
 * Read and accept the Apple Developer Program License Agreement.
 * Click Continue.
 
-![alt-text](assets/DeployAppStore/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Apple-Developer-Program-Enrollment-4D-for-iOS.png)
 
 ## STEP 6. COMPLETE YOUR PURCHASE
 
 * Click Purchase and make payment to complete the enrollment.
 
-![alt-text](assets/DeployAppStore/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
+![alt-text](assets/deploy-app-store/Complete-Purchase-Apple-Developer-Program-4D-for-iOS.png)
 
 * When you have completed your purchase, you'll receive an email confirming your membership in the program.
 
