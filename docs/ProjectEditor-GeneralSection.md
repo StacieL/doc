@@ -6,13 +6,13 @@ sidebar_label: General
 
 This section allow's you to define your application main information.
 
-![alt-text](assets/4DforiOSOverview/General-section-4D-for-iOS.png)
+![alt-text](assets/project-editor/General-section-4D-for-iOS.png)
 
 * <b>Organization:</b> Enter your company’s name or your personal name.
 * <b>Identifier:</b> Enter your organization’s bundle identifier. This will be used to identify your application. The product name you enter is concatenated to create the default “Bundle ID” using reverse domain name service notation. This bundle ID must be unique to your application.
  
 
-For example, if your company’s name is “MyCompany” and your application’s name “MyApp”, you could choose “com.MyCompany” as your company identifier. 
+For example, if your company’s name is “MyCompany” and your application’s name “MyApp”, you could choose “com.MyCompany” as your company identifier and your App bundle ID will be com.MyCompany.MyApp.
 
 <div class = "tips">
 <b>FYI:</b>

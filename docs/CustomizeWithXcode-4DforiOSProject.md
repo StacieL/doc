@@ -16,12 +16,12 @@ You can find here the Structure folder that containt all your defined database s
 * All published tables: The files generally appear in pairs, with the exception of the Launch screen, where you'll find a:
 - Swift file: Allows the addition of custom code.
 
-![alt-text](assets/OpenYourProjectWithXcode/swift-file-Xcode-4D-for-iOS.png)
+![alt-text](assets/customize-with-xcode/swift-file-Xcode-4D-for-iOS.png)
 
 
 - Storyboard file: Allows customizing your application design.
 
-![alt-text](assets/OpenYourProjectWithXcode/storyboard-file-Xcode-4D-for-iOS.png)
+![alt-text](assets/customize-with-xcode/storyboard-file-Xcode-4D-for-iOS.png)
 
 Next, let's look at how to customize the Contacts application detail view!
 

@@ -6,7 +6,7 @@ sidebar_label: Labels & Icons
 
 This is where you'll define short and long labels, as well as icons, for your tables and fields.
 
-![alt-text](assets/4DforiOSOverview/Labels-icons-section-4D-for-iOS.png)
+![alt-text](assets/project-editor/Labels-icons-section-4D-for-iOS.png)
 
 
 * <b>Short and long labels:</b> Long and short labels are used according to the available space in the template (to optimize space and avoid overcrowding the tab bar).

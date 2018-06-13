@@ -38,7 +38,7 @@ Let's go through the process...
 ## STEP 2. XCODE CONFIGURATION 
 
 * <b>Developer Account</b>: In Xcode > Preferences > Accounts, add your developer account.
-![alt-text](assets/TestYourApp/Developer-Account-4D-for-iOS.png) 
+![alt-text](assets/test-build/Developer-Account-4D-for-iOS.png) 
 
 ## STEP 3. GET YOUR TEAM ID 
 
@@ -51,15 +51,15 @@ Let's go through the process...
 
 * Open the current project you are working on from the BUILD tab.
 
-![alt-text](assets/TestYourApp/Open-your-project-Xcode-4D-for-iOS.png) 
+![alt-text](assets/test-build/Open-your-project-Xcode-4D-for-iOS.png) 
 
 * Verify that the "Automatically manage signing" option is checked and select the account you added [here](Freedeveloperaccount.html) from the Team popup.
 
-![alt-text](assets/TestYourApp/account-Selection-Free-Account.png) 
+![alt-text](assets/test-build/account-Selection-Free-Account.png) 
 
 * Connect your Device to your computer and select it from the top menu in Xcode.
 
-![alt-text](assets/TestYourApp/select-device-Free-Account.png) 
+![alt-text](assets/test-build/select-device-Free-Account.png) 
 
 * Then Xcode automatically generates Provisioning Profile and Certificate you need to Build your app.
 
@@ -67,7 +67,7 @@ Let's go through the process...
 
 * Reopen 4D for iOS in Sections > General and select your TEAM ID has been added in the Team ID popup.
 
-![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png) 
+![alt-text](assets/test-build/Team-ID-General-Section-4D-for-iOS.png) 
 
 * Go to STEP 6 to run your project in your device from the Project Editor.
 
@@ -75,10 +75,10 @@ Let's go through the process...
 ## STEP 5. TEAM ID FOR PAID SUBSCRIPTION ACCOUNT
 
 * Team ID: Go to Developer Account > Membership and get your Team ID.
-![alt-text](assets/TestYourApp/Team-ID-4D-for-iOS.png) 
+![alt-text](assets/test-build/Team-ID-4D-for-iOS.png) 
 
 * 4D for iOS: Launch 4D for iOS in Sections > General and enter your Team ID.
-![alt-text](assets/TestYourApp/Team-ID-General-Section-4D-for-iOS.png) 
+![alt-text](assets/test-build/Team-ID-General-Section-4D-for-iOS.png) 
 
 * Go to STEP 6 to run your project in your device
 
@@ -89,7 +89,7 @@ Let's go through the process...
 * Connect your device to your computer with a USB cable.
 * From the BUILD tab, click on Install.
 
-![alt-text](assets/TestYourApp/Install-button-build-tab-4D-for-iOS.png) 
+![alt-text](assets/test-build/Install-button-build-tab-4D-for-iOS.png) 
 
 * The application is being installed on your device!
 

@@ -14,7 +14,7 @@ Here's the breakdown of this screen, from top to bottom:
 * <b>Published tables:</b> Displays all tables published in the Structure section. 
 * <b>Available Forms:</b> Allows switching between template selection and content definition.
 
-![alt-text](assets/4DforiOSOverview/Forms-section-templates-selection-4D-for-iOS.png)
+![alt-text](assets/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
 ## LIST FORM DEFINITION
 
@@ -31,7 +31,7 @@ Most of the list forms include optional Search and Section fields.
 
 As with the List Form definition, select a template and drag and drop your fields onto your detail form.
 
-![alt-text](assets/4DforiOSOverview/Forms-section-content-definition-4D-for-iOS.png)
+![alt-text](assets/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
 
 

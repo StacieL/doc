@@ -26,17 +26,17 @@ Finished developing you application and want to test it?
 
 * Go to the BUILD tab from the Project Editor and select the iOS device (aka the Simulator) to use to run your application.
 
-![alt-text](assets/TestYourApp/device-selection-4D-for-ios.png)
+![alt-text](assets/test-build/device-selection-4D-for-ios.png)
 
 ## STEP 2. BUILD AND RUN 
 
 * Click on the Build and Run button.
 
-![alt-text](assets/TestYourApp/build-and-run-4D-for-iOS.png)
+![alt-text](assets/test-build/build-and-run-4D-for-iOS.png)
 
 ## STEP 3. TEST YOUR APPLICATION
 
 * Test navigating between the list and the detail forms in your application.
 
-![alt-text](assets/TestYourApp/simulator-list-form-4D-for-iOS.png) 
-![alt-text](assets/TestYourApp/simulator-detail-form-4D-for-iOS.png)
+![alt-text](assets/test-build/simulator-list-form-4D-for-iOS.png) 
+![alt-text](assets/test-build/simulator-detail-form-4D-for-iOS.png)

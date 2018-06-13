@@ -19,7 +19,7 @@ Let’s look at the Build tab options in detail:
 
 Select a Simulator to build and test your application on, and press the <b>Build and Run</b> button.
 
-![alt-text](assets/4DforiOSOverview/Build-Tab-4D-for-iOS.png)
+![alt-text](assets/project-editor/Build-Tab-4D-for-iOS.png)
 
 You're now ready to explore 4D for iOS on your own and build your own iOS project!
 

@@ -9,7 +9,7 @@ Publishing is where you define or create the:
 * Authentication Mode 
 * Authentication Method
 
-![alt-text](assets/4DforiOSOverview/Publishing-section-4D-for-iOS.png)
+![alt-text](assets/project-editor/Publishing-section-4D-for-iOS.png)
 
 
 ## WEB SERVER SETTINGS
@@ -56,13 +56,13 @@ You can customize this method according to your needs!
 
 A Settings screen is available from the tab bar. You can also find it from the More tab if necessary (<i>i.e.</i>, your application has more than four tables).
 
-![alt-text](assets/4DforiOSOverview/Setting-screen-Publishing-section-4D-for-iOS.png)
+![alt-text](assets/project-editor/Setting-screen-Publishing-section-4D-for-iOS.png)
 
 Settings allows you to:
 * Reload data
 * Define your server URL
 * Log out (if connected as an Authorized User).
 
-![alt-text](assets/4DforiOSOverview/Login-screen-Publishing-section-4D-for-iOS.png)
+![alt-text](assets/project-editor/Login-screen-Publishing-section-4D-for-iOS.png)
 
 
