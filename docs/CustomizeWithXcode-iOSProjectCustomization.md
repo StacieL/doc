@@ -7,7 +7,7 @@ sidebar_label: Customize your 4D for iOS App
 
 Let's do some Storyboard modification ... from simple to complex.
 
-## STEP 1. SIMPLE LABEL MODIFICATION
+## STEP 1. Simple label modification
 
 Let's start by modifying a label's font and color:
 
@@ -26,7 +26,8 @@ Let's start by modifying a label's font and color:
 ![alt-text](assets/customize-with-xcode/Attributes-inspector-color-Xcode-4D-for-iOS.png)
 
 
-## STEP 2. CHANGE PROFILE PICTURE POSITION
+## STEP 2. Change profile picture position
+
 
 All 4D for iOS templates use constraints for the application elements so they'll  display well on all devices.
 
@@ -46,7 +47,8 @@ As you can see, the position has changed but Xcode is displaying yellow lines...
 Those yellow lines represent contraints which are no longer valid.
 
 
-## STEP 3. UPDATE PROFILE PICTURE CONSTRAINTS
+## STEP 3. Update profile picture constraints
+
 
 To vertically align the picture in the center in the Superview (view which contains it), we need to delete the existing constraints and add new ones.
 
@@ -86,7 +88,8 @@ Now repeat the same steps for the First Name and Last Name labels.
 </div>
 
 
-## STEP 4. UPDATE LABEL POSTIONS AND CONSTRAINTS 
+## STEP 4. Update label positions and constraints
+
 
 #### Let's work on the First Name label.
 

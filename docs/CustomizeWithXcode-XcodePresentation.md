@@ -15,7 +15,7 @@ Xcode displays various areas that we're going to review:
 
 ![alt-text](assets/customize-with-xcode/Discover-Xcode-4D-for-iOS.png)
 
-## THE TOOLBAR
+## Toolbar
 
 * Run and Stop buttons are located on the left side of the toolbar. Pressing the Run button will build, and run, and launch your application in the selected iOS Simulator. 
 ![alt-text](assets/customize-with-xcode/Toolbar-Build-and-Run-Xcode-4D-for-iOS.png)
@@ -27,7 +27,7 @@ Xcode displays various areas that we're going to review:
 ![alt-text](assets/customize-with-xcode/Toolbar-View-buttons-Xcode-4D-for-iOS.png)
 
 
-## THE EDITOR AREA
+## Editor Area
 
 ![alt-text](assets/customize-with-xcode/Editor-Xcode-4D-for-iOS.png)
 
@@ -35,25 +35,25 @@ This is where the coding happens when a Swift file is selected.
 It changes when a Storyboard file is selected: the Interface Builder View appears.
 
 
-## INTERFACE BUILDER AREA
+## Interface Builder Area
 
 ![alt-text](assets/customize-with-xcode/Interface-Builder-Xcode-4D-for-iOS.png)
 
 This is a graphical interface which allows you to build a Storyboard or XIB file. On the left, all of your scenes are available. 
 
 
-## THE UTILITY AREA
+## Utility Area
 
 ![alt-text](assets/customize-with-xcode/Utility-Xcode-4D-for-iOS.png)
 
 * <b>Inspector panel</b>: Provides details about the selected file in your project navigator. The Inspector panel is very similar to the Property list.
 * <b>Library panel</b>: When using the Interface Builder, you can drag UI elements from here to add them to your user interface.
 
-## THE DEBUG AREA
+## Debug Area
  This area displays the output and the state of various variables when running your application.
 
 
-## THE NAVIGATION AREA
+## Navigation Area
 This area includes several tabs. The most important of which are:
 
 * <b>Navigation tab</b>: Includes all files necessary for your application to work properly.

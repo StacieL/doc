@@ -16,7 +16,7 @@ Here's the breakdown of this screen, from top to bottom:
 
 ![alt-text](assets/project-editor/Forms-section-templates-selection-4D-for-iOS.png)
 
-## LIST FORM DEFINITION
+## List Form definition
 
 Simple, empty templates are used by default for an application's list and detail forms.
 
@@ -27,7 +27,7 @@ Most of the list forms include optional Search and Section fields.
 
 ![alt-text](assets/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
-## DETAIL FORM DEFINITION
+## Detail Form definition
 
 ![alt-text](assets/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
 

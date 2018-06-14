@@ -11,7 +11,7 @@ sidebar_label: Apple Developer Program as an Organization
 </div>
 
 
-## STEP 1. APPLE ID
+## STEP 1. Apple ID
 
 * If you don’t have an Apple ID go to Step 2.
 * If you already have an Apple ID, go to Step 3.
@@ -19,7 +19,7 @@ sidebar_label: Apple Developer Program as an Organization
 <b>Note</b>: To enroll in the Apple Developer Enterprise Program, your Apple ID must be associated with an email address using your organization’s domain name.
 
 
-## STEP 2. CREATE YOUR APPLE ID
+## STEP 2. Create your Apple ID
 
 Go the the [Apple ID creation page](https://appleid.apple.com/).
 
@@ -33,12 +33,12 @@ Go the the [Apple ID creation page](https://appleid.apple.com/).
 
 * Once you have your Apple ID, you can continue to Step 3.
 
-## STEP 3. D-U-N-S NUMBER
+## STEP 3. D-U-N-S Number
 
 * If you don’t have a D-U-N-S Number, go to Step 4.
 * If you already have a D-U-N-S Number, go to Step 5.
 
-## STEP 4. REQUEST A D-U-N-S NUMBER
+## STEP 4. Request a D-U-N-S Number
 
 Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#/search)
 
@@ -51,7 +51,7 @@ Request a D-U-N-S Number [here](https://developer.apple.com/enroll/duns-lookup/#
 ![alt-text](assets/deploy-app-store/DUNS-Number-Apple-Mail_4D-for-iOS.png)
 
 
-## STEP 5. REGISTER AS A DEVELOPER
+## STEP 5. Register as a developer
 
 You can register as a developer [here](https://developer.apple.com/programs/enterprise/enroll/).
 * Click on the Start your Enrollment button.
@@ -60,14 +60,14 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![alt-text](assets/deploy-app-store/Register-developer-4D-for-iOS.png)
 
-## STEP 6. ENROLL IN THE APPLE DEVELOPER ENTERPRISE PROGRAM
+## STEP 6. Join the Apple Developer Program
 
 * You can sign up for the Apple Developer Program [here](https://developer.apple.com/enroll/enterprise/). 
 
 
 ![alt-text](assets/deploy-app-store/Join-Apple-Developer-Program-individuals-4D-for-iOS.png)
 
-## STEP 7. ENROLL AS AN ORGANIZATION
+## STEP 7. Enroll as an organization
 
 * Click on the Start your Enrollment button.
 * Select Company / Organization from the Entity Type dropdown list.
@@ -86,7 +86,7 @@ You can register as a developer [here](https://developer.apple.com/programs/ente
 
 ![alt-text](assets/deploy-in-house/Confirmation-email-Organisations-4D-for-iOS.png)
 
-## STEP 8. COMPLETE YOUR PURCHASE
+## STEP 8. Complete your purchase
 
 * Once your enrollment request has been accepted, you can then proceed to payment.
 

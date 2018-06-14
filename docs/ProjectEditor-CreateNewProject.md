@@ -32,7 +32,7 @@ Here we are! Now it's time to discover the 4D for iOS architecture and interface
 The main window consists of two tabs:
 
 
-## SECTIONS
+## Sections
 
 In the Sections tab, you'll find all of the necessary steps to create your 4D for iOS application:
 
@@ -43,7 +43,7 @@ In the Sections tab, you'll find all of the necessary steps to create your 4D fo
 * Forms
 * Publishing
 
-## BUILD
+## Build
 
 The Build tab has four options:
 
