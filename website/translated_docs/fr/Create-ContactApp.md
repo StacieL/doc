@@ -22,7 +22,7 @@ This tutorial will let you dive right into 4D for iOS development. It will allow
 
 We're going to create an iPhone application called "Contacts". You'll be able to search for contact names from a list and then view the details of each contact.
 
-## STEP 1. GETTING STARTED
+## STEP 1. Getting started
 
 Download our Starter Project, which contains a database file and project icon, but no mobile project yet!
 
@@ -32,7 +32,7 @@ Download our Starter Project, which contains a database file and project icon, b
 href="../assets/contact-app/ContactStarter.zip">STARTER PROJECT</a>
 </div>
 
-## STEP 2. CREATING THE PROJECT
+## STEP 2. Creating the project
 
 Let's start with a very simple structure using a single Contacts table. From 4D, go to **New > Mobile project**.
 
@@ -40,7 +40,7 @@ Give your project a name and click **Create**.
 
 ![alt-text](assets/contact-app/Project-creation-4D-for-iOS.png)
 
-## STEP 3. OPENING THE PROJECT EDITOR
+## STEP 3. Opening the Project Editor
 
 Welcome to 4D for iOS! The Welcome screen displays all the major steps of this magnificent tool. 
 
@@ -48,7 +48,7 @@ Welcome to 4D for iOS! The Welcome screen displays all the major steps of this m
 
 Click **Continue**.
 
-## STEP 4. CONFIGURE YOUR APPLICATION’S MAIN INFORMATION
+## STEP 4. Configure your Application's main information
 
 * **Organization:** Enter the name of your company and the application's identifier (ex. “My Company” and com.MyCompany).
 * **Product:** Enter your application's name. Let’s call this one "Contacts".
@@ -59,7 +59,7 @@ Click **Continue**.
 
 ![alt-text](assets/contact-app/Contact-app-general-section-4D-for-iOS.png)
 
-## STEP 5. SECTIONS - STRUCTURE
+## STEP 5. Sections - Structure
 
 In the Sections tab you can define a subset of your data to expose to mobile devices.
 
@@ -73,7 +73,7 @@ For our example, select **ID, First Name, Last Name, Job, Company, Phone, Notes 
 
 ![alt-text](assets/contact-app/Contact-app-structure-section-4D-for-iOS.png)
 
-## STEP 6. SECTIONS - ICONS & LABELS
+## STEP 6. Sections - Icons & Labels
 
 <b>Table Properties:</b>
 * Define a short and a long label for your Contacts table * Click on the icon field. The icon library will appear and you can select an icon to illustrate the Contacts table. You can also opt to leave the icon field empty. 4D for iOS will generate a default icon for you!
@@ -83,14 +83,14 @@ For our example, select **ID, First Name, Last Name, Job, Company, Phone, Notes 
 
 ![alt-text](assets/contact-app/Contact-app-icons-labels-section-4D-for-iOS.png)
 
-## STEP 7. SECTIONS - MAIN MENU
+## STEP 7. Sections - Main Menu
 
 * **Available Tables:** Displays the table(s) to be used.
 * **Selected Tables:** Displays your application's menu items. Even though our example has only one item, you can drag and drop your items to reorder them.
 
 ![alt-text](assets/contact-app/Contact-app-main-menu-section-4D-for-iOS.png)
 
-## STEP 8. SECTIONS - FORMS
+## STEP 8. Sections - Forms
 
 * Select a form template to display your table as a list. For our Contacts application, let’s use the **Profile list form**.
 
@@ -110,7 +110,7 @@ Let’s move on to defining the Detail form. * Select a template that is best su
 
 ![alt-text](assets/contact-app/DetailformContent-form-section-4D-for-iOS.png)
 
-## STEP 9. BUILD THE APPLICATION
+## STEP 9. Build the Application
 
 Now the fun part! Test your application on the Simulator to see the final result!
 
@@ -121,7 +121,7 @@ Now the fun part! Test your application on the Simulator to see the final result
 
 ![alt-text](assets/contact-app/simulator-list-form-4D-for-iOS.png)
 
-## STEP 10. WHERE TO GO FROM HERE?
+## STEP 10. Where to go from here?
 
 We've covered basic application creation in this tutorial, and you should now be able to create simple applications on your own. But wait - there’s more! In the next tutorial, you’ll learn how to build an even more complex application. Click on the Final Project button to download the final Contacts application.
 
