@@ -22,7 +22,7 @@ Depending on your objectives and preferences, you can choose to create a: * [Fre
 
 Let's go through the process...
 
-## STEP 1. ACCOUNT CREATION
+## STEP 1. Account creation
 
 * **Apple ID**: Create your apple ID. If you don’t already have one, click [here](https://appleid.apple.com/account#!&page=create).
 
@@ -31,16 +31,16 @@ Let's go through the process...
 * **[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)**: If you don't already have the latest version installed, you can get it in the App Store. Download, install, and open it to install all components.
 * **[Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344)**: If you don't already have the latest version installed, you can get it in the App Store. Download and install it. 
 
-## STEP 2. XCODE CONFIGURATION
+## STEP 2. Xcode configuration
 
 * **Developer Account**: In Xcode > Preferences > Accounts, add your developer account. ![alt-text](assets/test-build/Developer-Account-4D-for-iOS.png) 
 
-## STEP 3. GET YOUR TEAM ID
+## STEP 3. Get your Team ID
 
 * If your are using a [Free Apple Developer Program](free-developer-account.html) go to step 4
 * If your are using an Apple Developer Program for [organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to step 5
 
-## STEP 4. TEAM ID FOR FREE ACCOUNT
+## STEP 4. Team ID for Free account
 
 ### Let Xcode generates your certificate and provisioning profile
 
@@ -66,7 +66,7 @@ Let's go through the process...
 
 * Go to STEP 6 to run your project in your device from the Project Editor.
 
-## STEP 5. TEAM ID FOR PAID SUBSCRIPTION ACCOUNT
+## STEP 5. Team ID for paid subscription account
 
 * Team ID: Go to Developer Account > Membership and get your Team ID. ![alt-text](assets/test-build/Team-ID-4D-for-iOS.png)
 
@@ -74,7 +74,7 @@ Let's go through the process...
 
 * Go to STEP 6 to run your project in your device
 
-## STEP 6. BUILD
+## STEP 6. Build
 
 * When your application is ready, open the BUILD tab.
 * Connect your device to your computer with a USB cable.
