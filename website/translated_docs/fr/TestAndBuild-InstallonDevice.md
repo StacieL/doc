@@ -1,7 +1,7 @@
 ---
 id: install-device
-title: Installing your App on an iOS device
-sidebar_label: Installing your App on an iOS device
+title: Installing on your iOS device
+sidebar_label: Installing on your iOS device
 ---
 
 
@@ -18,7 +18,7 @@ sidebar_label: Installing your App on an iOS device
 
 If you want to publish your application in the App Store, you'll need to create an Apple Developer Program.
 
-Depending on your objectives and preferences, you can choose to create a: * [Free Apple Developer Program](Freedeveloperaccount.html) only for testing * [Apple Developer Program for organization](RegisterOrganization.html) or [individual](RegisterIndividual.html) for an App Store Deployment * [Apple Enterprise Developer Program](RegisterAppleDeveloperEnterpriseProgram.html) (if you deploy your app in-house).
+Depending on your objectives and preferences, you can choose to create a: * [Free Apple Developer Program](free-developer-account.html) only for testing * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html) for an App Store Deployment * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) (if you deploy your app in-house).
 
 Let's go through the process...
 
@@ -37,8 +37,8 @@ Let's go through the process...
 
 ## STEP 3. GET YOUR TEAM ID
 
-* If your are using a [Free Apple Developer Program](Freedeveloperaccount.html) go to step 4
-* If your are using a [Apple Developer Program](RegisterOrganization.html) or [Apple Enterprise Developer Program](RegisterAppleDeveloperEnterpriseProgram.html) go to step 5
+* If your are using a [Free Apple Developer Program](free-developer-account.html) go to step 4
+* If your are using an Apple Developer Program for [organization](register-apple-developer-program-organization.html), [individual](register-apple-developer-program-individual.html) or an [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) go to step 5
 
 ## STEP 4. TEAM ID FOR FREE ACCOUNT
 
@@ -48,7 +48,7 @@ Let's go through the process...
 
 ![alt-text](assets/test-build/Open-your-project-Xcode-4D-for-iOS.png)
 
-* Verify that the "Automatically manage signing" option is checked and select the account you added [here](Freedeveloperaccount.html) from the Team popup.
+* Verify that the "Automatically manage signing" option is checked and select the account you added [here](free-developer-account.html) from the Team drop-down list.
 
 ![alt-text](assets/test-build/account-Selection-Free-Account.png)
 
@@ -56,11 +56,11 @@ Let's go through the process...
 
 ![alt-text](assets/test-build/select-device-Free-Account.png)
 
-* Then Xcode automatically generates Provisioning Profile and Certificate you need to Build your app.
+* Then Xcode automatically generates Provisioning Profiles and Certificates you need to Build your app.
 
 ### Select your TEAM ID
 
-* Reopen 4D for iOS in Sections > General and select your TEAM ID has been added in the Team ID popup.
+* Reopen 4D for iOS in Sections > General and select your new Team ID in the Team ID popup.
 
 ![alt-text](assets/test-build/Team-ID-General-Section-4D-for-iOS.png)
 
