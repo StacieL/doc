@@ -24,18 +24,18 @@ We'll use the Contacts application we created [here](veryFirstApp.html). Downloa
 href="../assets/customize-with-xcode/ContactStarter.zip">STARTER PROJECT</a>
 </div>
 
-## STEP 1. GENERATE YOUR IOS PROJECT
+## STEP 1. Generate your iOS Project
 
 * If your haven't built your project yet, go to step 2.
 * If you've already built your project, go to step 3.
 
-## STEP2. BUILD YOUR PROJECT
+## STEP2. Build your Project
 
 From the Project Editor BUILD tab: * Click the Build tab. * Select the device to use as a Simulator by clicking on the device button. * Click the Build and Run button.
 
 ![alt-text](assets/customize-with-xcode/build-and-run-4D-for-iOS.png)
 
-## STEP 3. OPEN THE PROJECT WITH XCODE
+## STEP 3. Open your Project with Xcode
 
 * From the Project Editor BUILD tab, click on Project > Open the project with Xcode
 
