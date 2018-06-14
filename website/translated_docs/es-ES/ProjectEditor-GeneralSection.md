@@ -26,10 +26,10 @@ Help links are available for the Name and Identifier fields.
 <div class = "tips">
 <b>TIP:</b>
 
-If you already have an icon for your desktop application, you can drag and drop it directly into the icon area. 
+* If you already have an icon for your desktop application, you can drag and drop it directly into the icon area. 
 
-Here's the magic trick: 4D for iOS automatically determines the dominant color of your application's icon and uses it to generate a custom color scheme for your application!
+* <b>Here's the magic trick:</b> 4D for iOS automatically determines the dominant color of your application's icon and uses it to generate a custom color scheme for your application!
 </div>
 
 * **Developer:** This field is automatically filled with your user account name.
-* **Team:** Your Developer Account Team ID
+* **Team:** Your Developer Account Team ID.
