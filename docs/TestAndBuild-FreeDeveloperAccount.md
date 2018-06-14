@@ -1,7 +1,7 @@
 ---
 id: free-developer-account
-title: Create a free Apple Developer account 
-sidebar_label: Create a free Apple Developer account 
+title: Free Apple Developer account 
+sidebar_label: Free Apple Developer account 
 ---
 
 <div class = "objectives">

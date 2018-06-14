@@ -7,7 +7,7 @@ sidebar_label: Apple Developer Program as an Organization
 <div class = "objectives">
 <b>OBJECTIVES</b>
 
-* Register in the Apple Developer Enterprise Program as an Organization to publish your application to the App Store.
+* Register in the Apple Developer Enterprise Program as an Organization to publish your application to the <b>App Store</b>.
 </div>
 
 

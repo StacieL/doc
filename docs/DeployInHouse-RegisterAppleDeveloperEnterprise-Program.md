@@ -7,7 +7,7 @@ sidebar_label: Apple Developer Enterprise Program
 <div class = "objectives">
 <b>OBJECTIVES</b>
 
-* Register for the Apple Developer Enterprise Program to deploy your application in-house.
+* Register for the Apple Developer Enterprise Program to deploy your application <b>in-house</b>.
 </div>
 
 ## STEP 1. APPLE ID

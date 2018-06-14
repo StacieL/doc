@@ -15,7 +15,7 @@ This is where you'll define short and long labels, as well as icons, for your ta
 <div class = "tips">
 <b>TIP:</b>
 
-To keep everything consistent, default icons are generated for blank fields if at least one icon has been defined for a field. 
+* To keep everything consistent, <b>default icons</b> are generated for blank fields if at least one icon has been defined for a field. 
 
-You can also leave your the icon area empty if you don’t want to display icons in your application.
+* You can also leave your the icon area empty if you don’t want to display icons in your application.
 </div>

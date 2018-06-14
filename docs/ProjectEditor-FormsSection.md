@@ -25,14 +25,17 @@ Once done, the content definition screen appears.
 You can then drag and drop the fields from the Fields list directly onto the Model displayed on the right.
 Most of the list forms include optional Search and Section fields.
 
- 
+![alt-text](assets/project-editor/Forms-section-content-definition-4D-for-iOS.png)
 
 ## DETAIL FORM DEFINITION
 
+![alt-text](assets/project-editor/Forms-section-detail-form-templates-selection-4D-for-iOS.png)
+
 As with the List Form definition, select a template and drag and drop your fields onto your detail form.
 
-![alt-text](assets/project-editor/Forms-section-content-definition-4D-for-iOS.png)
+![alt-text](assets/project-editor/Forms-section-detail-form-content-definition-4D-for-iOS.png)
 
+You can add from 2 to 10 fields for most of the List Forms.
 
 
 <div class = "tips">
