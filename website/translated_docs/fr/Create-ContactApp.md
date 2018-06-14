@@ -1,7 +1,7 @@
 ---
 id: contact-app
-title: Creating a simple Contact App
-sidebar_label: Creating a simple Contact App
+title: Contact App
+sidebar_label: Contact App
 ---
 
 
