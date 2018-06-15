@@ -16,6 +16,10 @@ sidebar_label: Prerequisites
 
 ## Configuration
 
+* In the Database Settings, display the Web/4D Mobile page and check the Activate 4D Mobile service option.
+
+![alt-text](assets/prerequisites/4D-Mobile-services.png)
+
 * Tables and Fields must be **exposed with 4D Mobile Service**. Display the Table Inspector in the Structure editor and select the table you want to modify. By default, the Expose with 4D Mobile Service option is checked.
 
 ![alt-text](assets/prerequisites/Expose-table-fields-4D-mobile.png)
