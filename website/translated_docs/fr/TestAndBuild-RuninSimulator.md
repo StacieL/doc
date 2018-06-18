@@ -11,12 +11,6 @@ sidebar_label: Using the Simulator
 * Test my application in the Simulator
 </div>
 
-<div class = "prerequisites">
-<b>PREREQUISITES</b>
-
-* Latest version of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) installed on your Mac.
-</div>
-
 <
 
 div class = "pageStyle">
