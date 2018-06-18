@@ -14,10 +14,12 @@ sidebar_label: New Project
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* 4D Mobile must be activated
-* Well-configured HTTP and HTTPS ports
-* For greater comfort, the <b>Launch Web Server at Startup</b> option can also be activated
-* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac
+* Tables and Fields must be <b>exposed with 4D Mobile Service</b>.
+* Your HTTP and HTTPS ports must be well-configured.
+* Your Web Server must be started.
+* 4D Server / 4D Developer 17 R2.
+* Mac OS X version 10.13 (or later).
+* Latest [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac.
 </div>
 
 

@@ -12,7 +12,7 @@ Let’s look at the Build tab options in detail:
 
 * <b>iPhone X:</b> The default Simulator. Clicking here will reveal a dropdown list with all available simulators.
 
-* <b>Project:</b> Reveals a dropdown list where you can open the project or product folder, or open the product with Xcode.
+* <b>Project:</b> Reveals a dropdown list where you can <b>open the project folder</b> or <b>product folder</b>, or <b>open the product with Xcode</b>.
 
 * <b>Install:</b> Installs the application on a connected device.
  
