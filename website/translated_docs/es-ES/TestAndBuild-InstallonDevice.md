@@ -14,9 +14,7 @@ sidebar_label: Installing on your iOS device
 <div class = "prerequisites">
 <b>PREREQUISITES</b>
 
-* Latest version of \[Xcode\](https://itunes.apple.com/us/app/xcode/id497799835) version installed on your Mac * \[Apple configurator 2\](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate the app installation (optional). </div> 
-
-If you want to publish your application in the App Store, you'll need to create an Apple Developer Program.
+* \[Apple configurator 2\](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installed on your Mac to automate the app installation (optional) * Apple Developer Program </div> 
 
 Depending on your objectives and preferences, you can choose to create a: * [Free Apple Developer Program](free-developer-account.html) only for testing * [Apple Developer Program for organization](register-apple-developer-program-organization.html) or [individual](register-apple-developer-program-individual.html) for an App Store Deployment * [Apple Enterprise Developer Program](register-apple-developer-enterprise-program.html) (if you deploy your app in-house).
 
