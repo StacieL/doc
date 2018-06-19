@@ -8,6 +8,7 @@ sidebar_label: Contact App
 <b>OBJECTIVES</b>
 
 * Create your very first App with 4D for iOS0
+
 </div>
 
 <div class = "prerequisites">
