@@ -24,7 +24,7 @@ sidebar_label: Archive and export your Project
 
 After your account has been validated by Apple, open Xcode and add your Apple Enterprise Developer account in Preferences > Accounts.
 
-Xcode automacally installs required Provisioning and Certificates. 
+Xcode will automatically installs required Provisioning and Certificates. 
 
 ## STEP 2. Get your Team ID
 
@@ -62,13 +62,13 @@ Xcode automacally installs required Provisioning and Certificates.
 
 * At the end of the archive process the Organizer window appears with the archive you just created
 
-* Clic on the Export Button
+* Click on Export 
 
 ![alt-text](assets/deploy-in-house/Organizer-window-archive.png)
 
 ## STEP 7. Select your distribution method
 
-* Select <b>Enterprise</b> to distribute to your organisation and clic Next button
+* Select <b>Enterprise</b> and click Next
 
 ![alt-text](assets/deploy-in-house/Distribution-Method-selection.png)
 
@@ -78,7 +78,7 @@ Xcode automacally installs required Provisioning and Certificates.
 
 ![alt-text](assets/deploy-in-house/Enterprise-distribution-options.png)
 
-But what is a manifest ?
+### But what is a manifest ?
 
 Basically the manifest is an XML based property list and sould contain :
 
@@ -139,7 +139,7 @@ Here is an example of a manifest.plist file :
 
 * Here you can choose to let Xcode generate a manifest.plist file for you or generate it manually.
 
-* Click Next Button
+* Click Next
 
 ## STEP 9. Distribution manifest information
 
@@ -147,7 +147,7 @@ Here is an example of a manifest.plist file :
 
 ![alt-text](assets/deploy-in-house/Distribution-manifest-information.png)
 
-* Click Next Button
+* Click Next 
 
 
 ## STEP 10. Re-sign your application
@@ -156,15 +156,15 @@ Here is an example of a manifest.plist file :
 
 ![alt-text](assets/deploy-in-house/Re-sign-your-application.png)
 
-* Click Next Button
+* Click Next
 
 ## STEP 11. Review your App.ipa content
 
-* Here you can check tha your applicaiton identifier is the right one as well as your Team ID.
+* Here you can check that your application identifier is right as well as your Team ID.
 
 ![alt-text](assets/deploy-in-house/Review-ipa-content.png)
 
-* Click on <b>Export button</b> and select where you want to save your app folder on your computer to find it easily.
+* Click on <b>Export</b> and select where you want to save your app folder on your computer to find it later easily.
 
 
 
